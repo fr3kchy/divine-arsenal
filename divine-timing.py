@@ -152,6 +152,24 @@ MANSIONS = [
     {"n":28,"name":"Al-Risha","power":"Prosperity, water journeys"}
 ]
 
+# === ARBATEL OLYMPIC SPIRITS ===
+OLYMPIC_SPIRITS = {
+    "Saturn": {"name":"Aratron","power":"Alchemy, invisibility, longevity, treasures",
+               "province":"Philosophy, transmutation, knowledge of secrets"},
+    "Jupiter": {"name":"Bethor","power":"Wealth, honor, favor of rulers, treasures",
+                "province":"Government, wealth, protection, legal success"},
+    "Mars": {"name":"Phaleg","power":"War, courage, victory, strength, honor",
+             "province":"Military, warfare, competition, physical prowess"},
+    "Sun": {"name":"Och","power":"Health, longevity, wealth, favor, transmutation",
+            "state":"Medicine, vitality, success, gold, illumination"},
+    "Venus": {"name":"Hagith","power":"Love, beauty, attraction, transmutation",
+              "province":"Relationships, beauty, arts, silver, pleasure"},
+    "Mercury": {"name":"Ophiel","power":"Knowledge, travel, eloquence, transmutation",
+                "province":"Communication, learning, trade, mercury, quicksilver"},
+    "Moon": {"name":"Phul","power":"Travel, protection, medicine, transmutation",
+             "province":"Journeys, water, medicine, silver, intuition"}
+}
+
 # === ASPECTS ===
 ASPECTS = {
     "Conjunction":(0,8,"⚡","Intense focus, new beginnings"),
@@ -352,16 +370,21 @@ def briefing(date=None, verbose=False):
     
     # Day lord
     p = PLANETS[ruler]
+    olympic = OLYMPIC_SPIRITS.get(ruler, {})
     print(f"  ☀  {hm(sunrise)} ♾ {hm(sunset)} | Day Lord: {p['glyph']} {ruler.upper()}")
-    print(f"  Intelligence: {p['intelligence']} | Spirit: {p['spirit']}")
+    print(f"  Picatrix: {p['intelligence']} | {p['spirit']}")
+    if olympic:
+        print(f"  Arbatel: {olympic['name']} - {olympic.get('power','').split(',')[0]}")
     
     # Current hour
     if cur:
         cp = PLANETS[cur['planet']]
+        olymp = OLYMPIC_SPIRITS.get(cur['planet'], {})
         print(f"""
 {'─'*65}
   >> CURRENT HOUR: {cp['glyph']} {cur['planet'].upper()} (Hour {cur['num']} {'Day' if cur['day'] else 'Night'}) <<<
-     Intelligence: {cp['intelligence']} | Spirit: {cp['spirit']}
+     Picatrix: {cp['intelligence']} | {cp['spirit']}
+     Arbatel: {olymp.get('name','?')} - {olymp.get('power','').split(',')[0] if olymp else 'N/A'}
      Metal: {cp['metal']} | Stone: {cp['stone']} | Direction: {cp['direction']}
      {cp['power']}
 """)
@@ -508,6 +531,14 @@ if __name__ == "__main__":
         print(f"\n  RETROGRADE STATUS:")
         for p in ["Mercury","Venus","Mars","Jupiter","Saturn"]:
             print(f"  {PLANETS[p]['glyph']} {p:<10} {'℞ RETROGRADE' if get_retrograde(d,p) else 'Direct'}")
+    elif args[0]=="olympic" or args[0]=="arbatel":
+        print(f"\n  ARBATEL OLYMPIC SPIRITS (Seven Governors)")
+        print(f"{'─'*55}")
+        for planet, data in OLYMPIC_SPIRITS.items():
+            p = PLANETS[planet]
+            print(f"  {p['glyph']} {planet:<10} {data['name']:<10} {data['power'].split(',')[0]}")
+    elif args[0]=="spirits":
+        pass
     elif args[0]=="invoke":
         cur = current_hour()
         if cur:

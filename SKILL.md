@@ -67,7 +67,13 @@ protection, binding, legal, love, war, communication, divination, prosperity, bu
 
 ## Automated (Cron)
 - Daily briefing at 06:30 AEST
-- Hourly planetary hour alerts (notification + TTS voice)
+- Hourly planetary hour alerts (notification + TTS voice via termux-tts-speak)
+- TTS uses pitch 1.15, rate 1.11 (female voice, 1.11x speed)
+
+## TTS Note
+- Use `termux-tts-speak` directly, NOT the built-in text_to_speech tool
+- Built-in tool saves to file first, harder to hear on mobile
+- Direct Termux TTS plays immediately through phone speaker
 
 ## Files
 - Script: ~/scripts/divine-timing.py
