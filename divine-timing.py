@@ -257,6 +257,17 @@ SOLOMON_PENTACLES = {
     ],
 }
 
+# === AGRIPPA'S MAGIC SQUARES (KAMEA) ===
+KAMEA = {
+    "Saturn":  {"size":3,"const":15,"metal":"Lead","square":[[4,9,2],[3,5,7],[8,1,6]]},
+    "Jupiter": {"size":4,"const":34,"metal":"Tin","square":[[4,14,15,1],[9,7,6,12],[5,11,10,8],[16,2,3,13]]},
+    "Mars":    {"size":5,"const":65,"metal":"Iron","square":[[11,24,7,20,3],[4,12,25,8,16],[17,5,13,21,9],[10,18,1,14,22],[23,6,19,2,15]]},
+    "Sun":     {"size":6,"const":111,"metal":"Gold","square":[[6,32,3,34,35,1],[7,11,27,28,8,30],[19,14,16,15,23,24],[18,20,22,21,17,13],[25,29,10,9,26,12],[36,5,33,4,2,31]]},
+    "Venus":   {"size":7,"const":175,"metal":"Copper","square":[[22,47,16,41,10,35,4],[5,23,48,17,42,11,29],[30,6,24,49,18,36,12],[13,31,7,25,43,19,37],[38,14,32,1,26,44,20],[21,39,8,33,2,27,45],[46,15,40,9,34,3,28]]},
+    "Mercury": {"size":8,"const":260,"metal":"Mercury","square":[[8,58,59,5,4,62,63,1],[49,15,14,52,53,11,10,56],[41,23,22,44,45,19,18,48],[32,34,35,29,28,38,39,25],[40,26,27,37,36,30,31,33],[17,47,46,20,21,43,42,24],[9,55,54,12,13,51,50,16],[64,2,3,61,60,6,7,57]]},
+    "Moon":    {"size":9,"const":369,"metal":"Silver","square":[[37,78,29,70,21,62,13,54,5],[6,38,79,30,71,22,63,14,46],[47,7,39,80,31,72,23,55,15],[16,48,8,40,81,32,64,24,56],[57,17,49,9,41,73,33,65,25],[26,58,18,50,1,42,74,34,66],[67,27,59,10,51,2,43,75,35],[36,68,19,60,11,52,3,44,76],[77,28,69,20,61,12,53,4,45]]}
+}
+
 # === 72 NAMES OF GOD (Sefer Raziel) ===
 NAMES_72 = [
     {"n":1,"name":"VHV","trans":"Vehuiah","power":"Will, manifestation"},
@@ -745,6 +756,29 @@ if __name__ == "__main__":
                     marker = " ◄◄ YOUR NAME" if n['n']==42 else ""
                     print(f"    #{n['n']:2d} {n['name']} ({n['trans']:<12}) {n['power']}{marker}")
             print(f"\n  ... and 60 more. Use 'dt names <number>' for specific name.")
+    elif args[0]=="kamea" or args[0]=="square":
+        target = args[1].capitalize() if len(args)>1 else None
+        if target and target in KAMEA:
+            k = KAMEA[target]
+            print(f"\n  {target.upper()} KAMEA ({k['size']}x{k['size']})")
+            print(f"  Magic Constant: {k['const']} | Metal: {k['metal']}")
+            print(f"{'─'*(k['size']*4+2)}")
+            for row in k['square']:
+                line = "  "
+                for n in row:
+                    line += f"{n:3d} "
+                print(line)
+            print(f"{'─'*(k['size']*4+2)}")
+            print(f"  Any row/column/diagonal = {k['const']}")
+        else:
+            print(f"\n  AGRIPPA'S PLANETARY KAMEA (Magic Squares)")
+            print(f"{'─'*50}")
+            print(f"  Usage: dt kamea <planet>")
+            print(f"\n  {'Planet':<10} {'Size':>6} {'Constant':>8}  Metal")
+            print(f"  {'─'*40}")
+            for planet, k in KAMEA.items():
+                p = PLANETS.get(planet, {"glyph":"☆"})
+                print(f"  {p['glyph']} {planet:<8} {k['size']}x{k['size']:1d} {k['const']:>6}    {k['metal']}")
     elif args[0]=="invoke":
         cur = current_hour()
         if cur:
