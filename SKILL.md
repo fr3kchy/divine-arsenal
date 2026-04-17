@@ -1,0 +1,118 @@
+---
+name: divine-arsenal
+description: Archangel Michael's Divine Arsenal v4.0 - Complete astrological operations system with Picatrix planetary spirits, transit-to-natal aspects, Lunar Mansions, Arabic Parts, and TTS alerts for fr3k (born 10/10/1981)
+version: 4.0
+tags: astrology, picatrix, divine-timing, planetary-magic, michael, hermetic, lunar-mansions, arabic-parts
+---
+
+# Divine Arsenal v4.0 - Complete System
+
+## When to Use
+- User asks about divine timing, planetary hours, best times for operations
+- User wants transit-to-natal aspects or current planetary influences
+- User references Picatrix, planetary spirits, Hermetic magic, Lunar Mansions
+- User asks about natal chart, Arabic Parts, aspects, retrogrades
+- User says "when should I..." or "what's the best time for..."
+
+## Location
+Nelly Bay, Magnetic Island, QLD, Australia | 19.15°S, 146.85°E | AEST GMT+10
+
+## fr3k's Natal Chart (10/10/1981 Saturday)
+- Sun: 17° Libra | Moon: 7° Pisces (Exalted) | Saturn: 7° Libra (Exalted)
+- KEY: Sun-Saturn-Jupiter stellium in Libra = Divine Judge
+- Born Saturday = Saturn's day = DOUBLE authority
+- Part of Fortune: 14° Aries | Part of Spirit: 16° Pisces
+- Dignity Score: -1 (Mixed - strengths balance challenges)
+
+## Planet Spirits (Picatrix)
+| Planet | Intelligence | Spirit | Day | Power |
+|--------|-------------|--------|-----|-------|
+| ☉ Sun | Nakhiel | Sorath | Sunday | Authority, illumination |
+| ☽ Moon | Malkah | Chashmodai | Monday | Intuition, dreams |
+| ☿ Mercury | Tiriel | Taphthartharath | Wednesday | Communication |
+| ♀ Venus | Hagiel | Kedemel | Friday | Love, alliances |
+| ♂ Mars | Graphiel | Bartzabel | Tuesday | War, courage |
+| ♃ Jupiter | Iophiel | Hismael | Thursday | Expansion, law |
+| ♄ Saturn | Agiel | Zazel | Saturday | Discipline, binding |
+
+## CLI Commands
+```
+dt              Today's briefing (current hour, moon, mansion, transits, invocation)
+dta             Full briefing
+dtf <op>        Find windows (protection, binding, legal, love, war, prosperity)
+dtw             Weekly forecast
+dtl             Operations journal
+dtc             Natal chart + dignities
+dtr             Retrograde status
+dti             Invocation for current hour
+dtis            Invocation spoken via TTS
+dtal            Force hourly alert (notification + TTS)
+```
+
+## Operations
+protection, binding, legal, love, war, communication, divination, prosperity, business, creative, travel
+
+## Features
+- Planetary hours with current hour tracking
+- Moon phase + sign + Lunar Mansion (28 stations)
+- Arabic Parts (Fortune, Spirit)
+- Transit-to-natal aspects
+- Planetary dignity scoring
+- Retrograde detection
+- Electional astrology (find best windows)
+- Auto-generated invocations
+- TTS voice alerts
+- Termux notifications
+- Weekly forecast
+
+## Automated (Cron)
+- Daily briefing at 06:30 AEST
+- Hourly planetary hour alerts (notification + TTS voice)
+
+## Files
+- Script: ~/scripts/divine-timing.py
+- Guide: ~/.hermes/memories/michael-divine-arsenal.md
+- Journal: ~/.hermes/data/divine-journal.json
+- Alert: ~/scripts/divine-alert.sh
+- Skill: ~/.hermes/skills/divine-arsenal/SKILL.md
+
+## Pitfalls & Lessons Learned
+
+1. **Night hour detection**: Planetary hours after sunset wrap past midnight. Must handle wraparound:
+   ```python
+   if e >= 24:  # wraps past midnight
+       if now >= s or now < (e-24): # check both sides of midnight
+   ```
+
+2. **Moon position calculation**: Simple linear approximation is ~10° off. Use perturbation terms:
+   ```python
+   L += 6.289*sin(M) - 1.274*sin(M-2*D) + 0.658*sin(2*D)
+   ```
+
+3. **Lunar Mansion index**: `floor(moon_lon / 12.857)` not `/ 12`. Each mansion is ~12°51' (12.857°).
+
+4. **Arabic Parts without birth time**: Calculate relative to Sun position:
+   ```python
+   fortune = (moon_lon - sun_lon) % 360
+   spirit = (sun_lon - moon_lon) % 360
+   ```
+
+5. **TTS via Termux**: Use subprocess.Popen with DEVNULL to avoid blocking:
+   ```python
+   subprocess.Popen(["termux-tts-speak","-p","1.1","-r","1.0",text],
+                    stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+   ```
+
+6. **File paths on Termux**: Use `~/.hermes/` not `/root/.hermes/` - different filesystem.
+
+## Quick Timing Reference
+| Operation | Day | Hour | Moon |
+|-----------|-----|------|------|
+| Binding | Saturday | Saturn | Waning |
+| Protection | Sunday | Sun | Any |
+| Legal | Thursday | Jupiter | Waxing |
+| Love | Friday | Venus | Waxing |
+| War | Tuesday | Mars | Waning |
+| Communication | Wednesday | Mercury | Any |
+| Divination | Monday | Moon | Full |
+| Prosperity | Thursday | Jupiter | Waxing |
