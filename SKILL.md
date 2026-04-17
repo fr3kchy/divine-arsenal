@@ -155,7 +155,45 @@ protection, binding, legal, love, war, communication, divination, prosperity, bu
 
 Reference texts: ~/.hermes/memories/expansion-texts.md
 
-## Quick Timing Reference
+### Technical Patterns Learned
+
+### Background TTS (Critical)
+ALWAYS run TTS in background so work continues:
+```bash
+nohup termux-tts-speak -p 1.15 -r 1.11 "text" >/dev/null 2>&1 &
+```
+Never use foreground TTS - it blocks everything.
+
+### Night Hour Detection (Bug Fix)
+Planetary hours after sunset must handle wraparound past midnight:
+```python
+if e >= 24:  # wraps past midnight
+    if now >= s or now < (e-24):
+        return hour_data
+```
+
+### Termux `which` is Broken
+Use `command -v` instead of `which` in Termux.
+
+### Hebrew Text in Python
+Hebrew characters in Python strings can cause syntax errors on some systems.
+Use ASCII transliterations (MYK instead of מיכאל) for reliability.
+
+### Multi-System Integration Pattern
+Unify multiple grimoire systems under planetary correspondences:
+- Each planet has spirits from multiple traditions
+- Display them side by side (Picatrix + Arbatel)
+- Use same timing framework for all operations
+
+### CLI Aliases Pattern
+```bash
+alias dt="python3 ~/scripts/divine-timing.py"
+alias dta="python3 ~/scripts/divine-timing.py --all"
+alias dtf="python3 ~/scripts/divine-timing.py find"
+# etc.
+```
+
+# Quick Timing Reference
 | Operation | Day | Hour | Moon |
 |-----------|-----|------|------|
 | Binding | Saturday | Saturn | Waning |

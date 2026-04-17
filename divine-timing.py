@@ -268,6 +268,60 @@ KAMEA = {
     "Moon":    {"size":9,"const":369,"metal":"Silver","square":[[37,78,29,70,21,62,13,54,5],[6,38,79,30,71,22,63,14,46],[47,7,39,80,31,72,23,55,15],[16,48,8,40,81,32,64,24,56],[57,17,49,9,41,73,33,65,25],[26,58,18,50,1,42,74,34,66],[67,27,59,10,51,2,43,75,35],[36,68,19,60,11,52,3,44,76],[77,28,69,20,61,12,53,4,45]]}
 }
 
+# === DECANS - 36 FACES ===
+DECANS = [
+    {"sign":"Aries","dec":1,"deg":"0-10","ruler":"Mars","power":"Leadership, courage"},
+    {"sign":"Aries","dec":2,"deg":"10-20","ruler":"Sun","power":"Success, honor"},
+    {"sign":"Aries","dec":3,"deg":"20-30","ruler":"Venus","power":"Love, beauty"},
+    {"sign":"Taurus","dec":1,"deg":"0-10","ruler":"Mercury","power":"Knowledge"},
+    {"sign":"Taurus","dec":2,"deg":"10-20","ruler":"Moon","power":"Intuition, fertility"},
+    {"sign":"Taurus","dec":3,"deg":"20-30","ruler":"Saturn","power":"Structure, patience"},
+    {"sign":"Gemini","dec":1,"deg":"0-10","ruler":"Jupiter","power":"Expansion, wisdom"},
+    {"sign":"Gemini","dec":2,"deg":"10-20","ruler":"Mars","power":"Action, courage"},
+    {"sign":"Gemini","dec":3,"deg":"20-30","ruler":"Sun","power":"Success, authority"},
+    {"sign":"Cancer","dec":1,"deg":"0-10","ruler":"Venus","power":"Love, harmony"},
+    {"sign":"Cancer","dec":2,"deg":"10-20","ruler":"Mercury","power":"Communication"},
+    {"sign":"Cancer","dec":3,"deg":"20-30","ruler":"Moon","power":"Intuition, dreams"},
+    {"sign":"Leo","dec":1,"deg":"0-10","ruler":"Saturn","power":"Discipline, mastery"},
+    {"sign":"Leo","dec":2,"deg":"10-20","ruler":"Jupiter","power":"Expansion, honor"},
+    {"sign":"Leo","dec":3,"deg":"20-30","ruler":"Mars","power":"Courage, victory"},
+    {"sign":"Virgo","dec":1,"deg":"0-10","ruler":"Sun","power":"Success, clarity"},
+    {"sign":"Virgo","dec":2,"deg":"10-20","ruler":"Venus","power":"Beauty, refinement"},
+    {"sign":"Virgo","dec":3,"deg":"20-30","ruler":"Mercury","power":"Intelligence, skill"},
+    {"sign":"Libra","dec":1,"deg":"0-10","ruler":"Moon","power":"Balance, intuition"},
+    {"sign":"Libra","dec":2,"deg":"10-20","ruler":"Saturn","power":"Justice, karma"},
+    {"sign":"Libra","dec":3,"deg":"20-30","ruler":"Jupiter","power":"Law, abundance"},
+    {"sign":"Scorpio","dec":1,"deg":"0-10","ruler":"Mars","power":"Intensity"},
+    {"sign":"Scorpio","dec":2,"deg":"10-20","ruler":"Sun","power":"Power, depth"},
+    {"sign":"Scorpio","dec":3,"deg":"20-30","ruler":"Venus","power":"Passion, mystery"},
+    {"sign":"Sagittarius","dec":1,"deg":"0-10","ruler":"Mercury","power":"Travel, philosophy"},
+    {"sign":"Sagittarius","dec":2,"deg":"10-20","ruler":"Moon","power":"Vision, guidance"},
+    {"sign":"Sagittarius","dec":3,"deg":"20-30","ruler":"Saturn","power":"Mastery, wisdom"},
+    {"sign":"Capricorn","dec":1,"deg":"0-10","ruler":"Jupiter","power":"Ambition, success"},
+    {"sign":"Capricorn","dec":2,"deg":"10-20","ruler":"Mars","power":"Drive, determination"},
+    {"sign":"Capricorn","dec":3,"deg":"20-30","ruler":"Sun","power":"Achievement, legacy"},
+    {"sign":"Aquarius","dec":1,"deg":"0-10","ruler":"Venus","power":"Innovation, friendship"},
+    {"sign":"Aquarius","dec":2,"deg":"10-20","ruler":"Mercury","power":"Ideas, reform"},
+    {"sign":"Aquarius","dec":3,"deg":"20-30","ruler":"Moon","power":"Vision, humanity"},
+    {"sign":"Pisces","dec":1,"deg":"0-10","ruler":"Saturn","power":"Spirituality, depth"},
+    {"sign":"Pisces","dec":2,"deg":"10-20","ruler":"Jupiter","power":"Compassion, wisdom"},
+    {"sign":"Pisces","dec":3,"deg":"20-30","ruler":"Mars","power":"Courage, faith"},
+]
+
+# === FIXED STARS (Major) ===
+FIXED_STARS = [
+    {"name":"Algol","constellation":"Perseus","lon":26.0,"power":"Intensity, transformation, danger","nature":"Saturn-Jupiter"},
+    {"name":"Aldebaran","constellation":"Taurus","lon":59.7,"power":"Success, honor, leadership","nature":"Mars"},
+    {"name":"Capella","constellation":"Auriga","lon":73.7,"power":"Success, ambition, intellect","nature":"Jupiter-Mars"},
+    {"name":"Regulus","constellation":"Leo","lon":150.0,"power":"Success, honor, royalty","nature":"Mars-Jupiter","note":"Heart of the Lion"},
+    {"name":"Spica","constellation":"Virgo","lon":166.0,"power":"Success, wealth, honor","nature":"Venus-Mercury"},
+    {"name":"Arcturus","constellation":"Boötes","lon":197.0,"power":"Success, honor, prosperity","nature":"Jupiter-Mars","note":"Near YOUR Sun!"},
+    {"name":"Antares","constellation":"Scorpio","lon":247.0,"power":"Success, ambition, danger","nature":"Mars-Jupiter"},
+    {"name":"Fomalhaut","constellation":"Piscis Austrinus","lon":334.0,"power":"Success, magic, spirituality","nature":"Venus-Jupiter"},
+    {"name":"Deneb Algedi","constellation":"Capricorn","lon":306.0,"power":"Success, justice, law","nature":"Saturn-Jupiter"},
+    {"name":"Sirius","constellation":"Canis Major","lon":104.0,"power":"Success, honor, fame","nature":"Jupiter-Mars","note":"Brightest star"},
+]
+
 # === SEPHER YETZIRAH - HEBREW LETTERS ===
 LETTERS = [
     {"n":1,"l":"A","name":"Aleph","type":"Mother","elem":"Air","zodiac":"","planet":"","power":"Breath, spirit, unity"},
@@ -833,6 +887,73 @@ if __name__ == "__main__":
             for l in LETTERS:
                 if l['type']=='Simple':
                     print(f"    #{l['n']:2d} {l['l']:<3} {l['name']:<12} {l['zodiac']:<12} {l['power']}")
+    elif args[0]=="decan" or args[0]=="decans":
+        print(f"\n  DECANS - 36 FACES OF THE ZODIAC")
+        print(f"{'─'*55}")
+        print(f"  Your Sun: Libra Decan 2 (10-20°) - Ruled by SATURN")
+        print(f"  Power: Justice, karma | Image: A judge, stern, fair")
+        print(f"\n  Current Moon decans:")
+        d = datetime.now()
+        moon_lon = planet_lon(d, "Moon")
+        sign_idx = int(moon_lon / 30)
+        deg_in = moon_lon % 30
+        dec_idx = int(deg_in / 10)
+        signs = ["Aries","Taurus","Gemini","Cancer","Leo","Virgo",
+                 "Libra","Scorpio","Sagittarius","Capricorn","Aquarius","Pisces"]
+        for dec in DECANS:
+            if dec['sign']==signs[sign_idx] and dec['dec']==dec_idx+1:
+                print(f"  Moon: {dec['sign']} Decan {dec['dec']} ({dec['deg']}°) - {dec['ruler']}")
+                print(f"  Power: {dec['power']}")
+                break
+    elif args[0]=="stars" or args[0]=="fixed":
+        print(f"\n  MAJOR FIXED STARS")
+        print(f"{'─'*55}")
+        print(f"  Your Sun conjunct Arcturus (197°) - Success, honor, prosperity")
+        print(f"\n  {'Star':<15} {'Lon':>5} {'Nature':<15} Power")
+        print(f"  {'─'*55}")
+        for star in FIXED_STARS:
+            near = " ◄◄ YOUR SUN" if abs(star['lon']-197.17)<3 else ""
+            print(f"  {star['name']:<15} {star['lon']:5.0f}° {star['nature']:<15} {star['power'][:25]}{near}")
+    elif args[0]=="ritual" or args[0]=="daily":
+        cur = current_hour()
+        if not cur:
+            print("  Cannot determine current hour")
+        else:
+            p = PLANETS[cur['planet']]
+            olymp = OLYMPIC_SPIRITS.get(cur['planet'], {})
+            frac,phase,_,_,_ = moon_phase(datetime.now())
+            
+            print(f"\n  DAILY RITUAL - {cur['planet'].upper()} HOUR")
+            print(f"{'─'*55}")
+            print(f"  Time: {hm(cur['start'])} - {hm(cur['end'])}")
+            print(f"  Moon: {phase} ({frac*100:.0f}%)")
+            print()
+            print(f"  1. PREPARATION")
+            print(f"     Face {p['direction']}")
+            print(f"     Light {p['incense']} incense")
+            print(f"     Hold {p['stone']}")
+            print()
+            print(f"  2. INVOCATION")
+            print(f"     \"{p['intelligence']}, Intelligence of {cur['planet']},")
+            print(f"      and {p['spirit']}, Spirit of {cur['planet']},")
+            print(f"      grant me {p['power'].split(',')[0].lower()}.\"")
+            if olymp:
+                print(f"     \"{olymp['name']}, Olympic Spirit of {cur['planet']},")
+                print(f"      {olymp['power'].split(',')[0].lower()}.\"")
+            print()
+            print(f"  3. OPERATION")
+            for op in OPS[cur['planet']]:
+                print(f"     - {op}")
+            print()
+            print(f"  4. CLOSING")
+            print(f"     \"By the authority of Mikha'el,")
+            print(f"      Commander of the Heavenly Host,")
+            print(f"      let it be done. So it is.\"")
+            print()
+            print(f"  5. SEAL")
+            print(f"     Visualize golden light")
+            print(f"     Touch {p['stone']} to forehead")
+            print(f"     Extinguish incense")
     elif args[0]=="invoke":
         cur = current_hour()
         if cur:
