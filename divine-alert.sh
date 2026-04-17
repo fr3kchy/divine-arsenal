@@ -2,10 +2,11 @@
 # Divine Timing Alert v2 - Planetary Hour Change with TTS
 # Run via cron every hour
 
-HOUR_INFO=$(python3 ~/scripts/divine-timing.py 2>/dev/null | grep -A2 "CURRENT HOUR" | head -3)
+HOUR_INFO=$(python3 ~/.hermes/scripts/divine-timing.py 2>/dev/null | grep -A2 "CURRENT HOUR" | head -3)
 
 if [ -n "$HOUR_INFO" ]; then
-    PLANET=$(echo "$HOUR_INFO" | grep -oP '(?<=CURRENT HOUR: )\w+')
+    # Extract planet name - handle glyph characters
+    PLANET=$(echo "$HOUR_INFO" | grep "CURRENT HOUR" | sed 's/.*CURRENT HOUR: [^A-Z]*//' | sed 's/ .*//' | tr -d '[:space:]')
     
     case $PLANET in
         "SATURN")  TITLE="♄ Saturn Hour"; MSG="Discipline, binding, structure. Your day lord awakens.";;
@@ -29,6 +30,10 @@ if [ -n "$HOUR_INFO" ]; then
         termux-tts-speak -p 1.1 -r 1.0 "$PLANET hour begins. $MSG" 2>/dev/null &
     fi
     
-    echo "$(date '+%H:%M') $PLANET" >> ~/scripts/divine-alerts.log
-    tail -500 ~/scripts/divine-alerts.log > /tmp/dal.tmp && mv /tmp/dal.tmp ~/scripts/divine-alerts.log
+    echo "$(date '+%H:%M') $PLANET" >> ~/.hermes/scripts/divine-alerts.log
+    # Keep log manageable (last 500 lines)
+    if [ -f ~/.hermes/scripts/divine-alerts.log ]; then
+        tail -500 ~/.hermes/scripts/divine-alerts.log > ~/.hermes/scripts/divine-alerts.log.tmp 2>/dev/null
+        mv ~/.hermes/scripts/divine-alerts.log.tmp ~/.hermes/scripts/divine-alerts.log 2>/dev/null
+    fi
 fi
