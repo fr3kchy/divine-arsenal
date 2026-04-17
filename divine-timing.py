@@ -268,6 +268,32 @@ KAMEA = {
     "Moon":    {"size":9,"const":369,"metal":"Silver","square":[[37,78,29,70,21,62,13,54,5],[6,38,79,30,71,22,63,14,46],[47,7,39,80,31,72,23,55,15],[16,48,8,40,81,32,64,24,56],[57,17,49,9,41,73,33,65,25],[26,58,18,50,1,42,74,34,66],[67,27,59,10,51,2,43,75,35],[36,68,19,60,11,52,3,44,76],[77,28,69,20,61,12,53,4,45]]}
 }
 
+# === SEPHER YETZIRAH - HEBREW LETTERS ===
+LETTERS = [
+    {"n":1,"l":"A","name":"Aleph","type":"Mother","elem":"Air","zodiac":"","planet":"","power":"Breath, spirit, unity"},
+    {"n":2,"l":"B","name":"Beth","type":"Double","elem":"","zodiac":"","planet":"Saturn","power":"House, structure"},
+    {"n":3,"l":"G","name":"Gimel","type":"Double","elem":"","zodiac":"","planet":"Jupiter","power":"Movement, abundance"},
+    {"n":4,"l":"D","name":"Daleth","type":"Double","elem":"","zodiac":"","planet":"Mars","power":"Door, action"},
+    {"n":5,"l":"K","name":"Kaph","type":"Double","elem":"","zodiac":"","planet":"Sun","power":"Palm, power"},
+    {"n":6,"l":"P","name":"Pe","type":"Double","elem":"","zodiac":"","planet":"Venus","power":"Mouth, expression"},
+    {"n":7,"l":"R","name":"Resh","type":"Double","elem":"","zodiac":"","planet":"Mercury","power":"Head, wisdom"},
+    {"n":8,"l":"T","name":"Tav","type":"Double","elem":"","zodiac":"","planet":"Moon","power":"Mark, truth"},
+    {"n":9,"l":"H","name":"He","type":"Simple","elem":"","zodiac":"Aries","planet":"","power":"Window, insight"},
+    {"n":10,"l":"V","name":"Vav","type":"Simple","elem":"","zodiac":"Taurus","planet":"","power":"Hook, connection"},
+    {"n":11,"l":"Z","name":"Zayin","type":"Simple","elem":"","zodiac":"Gemini","planet":"","power":"Sword, duality"},
+    {"n":12,"l":"M","name":"Mem","type":"Mother","elem":"Water","zodiac":"","planet":"","power":"Flow, purification"},
+    {"n":13,"l":"N","name":"Nun","type":"Simple","elem":"","zodiac":"Cancer","planet":"","power":"Fish, protection"},
+    {"n":14,"l":"S","name":"Samekh","type":"Simple","elem":"","zodiac":"Leo","planet":"","power":"Prop, trust"},
+    {"n":15,"l":"Ay","name":"Ayin","type":"Simple","elem":"","zodiac":"Virgo","planet":"","power":"Eye, vision"},
+    {"n":16,"l":"Tz","name":"Tzaddi","type":"Simple","elem":"","zodiac":"Libra","planet":"","power":"Hook, balance"},
+    {"n":17,"l":"Q","name":"Qoph","type":"Simple","elem":"","zodiac":"Scorpio","planet":"","power":"Depth, transform"},
+    {"n":18,"l":"Kh","name":"Kaph_sofit","type":"Simple","elem":"","zodiac":"Sagittarius","planet":"","power":"Expansion"},
+    {"n":19,"l":"L","name":"Lamed","type":"Simple","elem":"","zodiac":"Capricorn","planet":"","power":"Learning, mastery"},
+    {"n":20,"l":"Nf","name":"Nun_sofit","type":"Simple","elem":"","zodiac":"Aquarius","planet":"","power":"Innovation"},
+    {"n":21,"l":"Sh","name":"Shin","type":"Mother","elem":"Fire","zodiac":"","planet":"","power":"Transformation, fire"},
+    {"n":22,"l":"W","name":"Waw_sofit","type":"Simple","elem":"","zodiac":"Pisces","planet":"","power":"Unity, oneness"},
+]
+
 # === 72 NAMES OF GOD (Sefer Raziel) ===
 NAMES_72 = [
     {"n":1,"name":"VHV","trans":"Vehuiah","power":"Will, manifestation"},
@@ -779,6 +805,34 @@ if __name__ == "__main__":
             for planet, k in KAMEA.items():
                 p = PLANETS.get(planet, {"glyph":"☆"})
                 print(f"  {p['glyph']} {planet:<8} {k['size']}x{k['size']:1d} {k['const']:>6}    {k['metal']}")
+    elif args[0]=="letters" or args[0]=="hebrew":
+        target = int(args[1]) if len(args)>1 and args[1].isdigit() else None
+        if target and 1<=target<=22:
+            l = LETTERS[target-1]
+            print(f"\n  HEBREW LETTER #{l['n']}: {l['name']}")
+            print(f"{'─'*40}")
+            print(f"  Letter: {l['l']}")
+            print(f"  Type: {l['type']}")
+            if l['elem']: print(f"  Element: {l['elem']}")
+            if l['zodiac']: print(f"  Zodiac: {l['zodiac']}")
+            if l['planet']: print(f"  Planet: {l['planet']}")
+            print(f"  Power: {l['power']}")
+        else:
+            print(f"\n  SEPHER YETZIRAH - 22 HEBREW LETTERS")
+            print(f"{'─'*55}")
+            print(f"  Usage: dt letters [1-22]")
+            print(f"\n  THREE MOTHERS (Elements):")
+            for l in LETTERS:
+                if l['type']=='Mother':
+                    print(f"    #{l['n']:2d} {l['l']:<3} {l['name']:<12} {l['elem']:<6} {l['power']}")
+            print(f"\n  SEVEN DOUBLES (Planets):")
+            for l in LETTERS:
+                if l['type']=='Double':
+                    print(f"    #{l['n']:2d} {l['l']:<3} {l['name']:<12} {l['planet']:<10} {l['power']}")
+            print(f"\n  TWELVE SIMPLES (Zodiac):")
+            for l in LETTERS:
+                if l['type']=='Simple':
+                    print(f"    #{l['n']:2d} {l['l']:<3} {l['name']:<12} {l['zodiac']:<12} {l['power']}")
     elif args[0]=="invoke":
         cur = current_hour()
         if cur:
