@@ -161,13 +161,100 @@ OLYMPIC_SPIRITS = {
     "Mars": {"name":"Phaleg","power":"War, courage, victory, strength, honor",
              "province":"Military, warfare, competition, physical prowess"},
     "Sun": {"name":"Och","power":"Health, longevity, wealth, favor, transmutation",
-            "state":"Medicine, vitality, success, gold, illumination"},
+            "province":"Medicine, vitality, success, gold, illumination"},
     "Venus": {"name":"Hagith","power":"Love, beauty, attraction, transmutation",
               "province":"Relationships, beauty, arts, silver, pleasure"},
     "Mercury": {"name":"Ophiel","power":"Knowledge, travel, eloquence, transmutation",
                 "province":"Communication, learning, trade, mercury, quicksilver"},
     "Moon": {"name":"Phul","power":"Travel, protection, medicine, transmutation",
              "province":"Journeys, water, medicine, silver, intuition"}
+}
+
+# === KEY OF SOLOMON PENTACLES ===
+SOLOMON_PENTACLES = {
+    "Saturn": [
+        {"num":1,"name":"First Pentacle","power":"Invokes Saturn's spirits",
+         "hebrew":"אלהים יהוה","purpose":"Command over Saturn's forces, longevity, invisibility",
+         "material":"Lead","color":"Black","hour":"Saturn","day":"Saturday"},
+        {"num":2,"name":"Second Pentacle","power":"Protects against enemies",
+         "hebrew":"ALHYM YHVH","purpose":"Defense against all enemies, binding foes",
+         "material":"Lead","color":"Black","hour":"Saturn","day":"Saturday"},
+        {"num":3,"name":"Third Pentacle","power":"Invisibility",
+         "hebrew":"YHVH TzBAVTh","purpose":"Grants invisibility, discovery of treasures",
+         "material":"Lead","color":"Black","hour":"Saturn","day":"Saturday"},
+    ],
+    "Jupiter": [
+        {"num":1,"name":"First Pentacle","power":"Acquires treasures",
+         "hebrew":"ABN MAS VH","purpose":"Wealth, honors, favors from great personages",
+         "material":"Tin","color":"Blue/Purple","hour":"Jupiter","day":"Thursday"},
+        {"num":2,"name":"Second Pentacle","power":"Protects from all dangers",
+         "hebrew":"YHVH ALHYM TzBAVTh","purpose":"Protection, defense against perils",
+         "material":"Tin","color":"Blue/Purple","hour":"Jupiter","day":"Thursday"},
+        {"num":3,"name":"Third Pentacle","power":"Brings honors",
+         "hebrew":"AL HYVH","purpose":"Acquiring glory, honor, dignity, riches",
+         "material":"Tin","color":"Blue/Purple","hour":"Jupiter","day":"Thursday"},
+        {"num":4,"name":"Fourth Pentacle","power":"Acquires wealth",
+         "hebrew":"YHVH","purpose":"Great riches, wealth, abundance",
+         "material":"Tin","color":"Blue/Purple","hour":"Jupiter","day":"Thursday"},
+    ],
+    "Mars": [
+        {"num":1,"name":"First Pentacle","power":"Victory in war",
+         "hebrew":"YHVH ALHYM","purpose":"Victory in war, courage, striking terror in enemies",
+         "material":"Iron","color":"Red","hour":"Mars","day":"Tuesday"},
+        {"num":2,"name":"Second Pentacle","power":"Strikes terror",
+         "hebrew":"YHVH TzBAVTh","purpose":"Causes terror in enemies, destroys opposition",
+         "material":"Iron","color":"Red","hour":"Mars","day":"Tuesday"},
+        {"num":3,"name":"Third Pentacle","power":"Vengeance",
+         "hebrew":"ALHYM GIBVR","purpose":"Vengeance against enemies, justice",
+         "material":"Iron","color":"Red","hour":"Mars","day":"Tuesday"},
+    ],
+    "Sun": [
+        {"num":1,"name":"First Pentacle","power":"Obtains glory",
+         "hebrew":"YHVH ALHYM TzBAVTh","purpose":"Glory, acquisition of riches, prevents poverty",
+         "material":"Gold","color":"Gold/Yellow","hour":"Sun","day":"Sunday"},
+        {"num":2,"name":"Second Pentacle","power":"Causes success",
+         "hebrew":"ShMSh ALHYM","purpose":"Success in all undertakings, favor of all",
+         "material":"Gold","color":"Gold/Yellow","hour":"Sun","day":"Sunday"},
+        {"num":3,"name":"Third Pentacle","power":"Acquires gold",
+         "hebrew":"YHVH ShMSh","purpose":"Great wealth, gold, treasures",
+         "material":"Gold","color":"Gold/Yellow","hour":"Sun","day":"Sunday"},
+        {"num":4,"name":"Fourth Pentacle","power":"Brings favor",
+         "hebrew":"ALHYM TzBAVTh","purpose":"Favor of rulers, success, prevents poverty",
+         "material":"Gold","color":"Gold/Yellow","hour":"Sun","day":"Sunday"},
+    ],
+    "Venus": [
+        {"num":1,"name":"First Pentacle","power":"Obtains love",
+         "hebrew":"YHVH","purpose":"Love, friendship, harmony between people",
+         "material":"Copper","color":"Green","hour":"Venus","day":"Friday"},
+        {"num":2,"name":"Second Pentacle","power":"Causes love",
+         "hebrew":"ALHYM","purpose":"Inspires love, attraction, beauty",
+         "material":"Copper","color":"Green","hour":"Venus","day":"Friday"},
+        {"num":3,"name":"Third Pentacle","power":"Brings joy",
+         "hebrew":"YHVH ALHYM","purpose":"Joy, harmony, reconciliation, peace",
+         "material":"Copper","color":"Green","hour":"Venus","day":"Friday"},
+    ],
+    "Mercury": [
+        {"num":1,"name":"First Pentacle","power":"Acquires knowledge",
+         "hebrew":"YHVH ALHYM","purpose":"Knowledge, learning, understanding all sciences",
+         "material":"Mercury/Quicksilver","color":"Yellow/Orange","hour":"Mercury","day":"Wednesday"},
+        {"num":2,"name":"Second Pentacle","power":"Obtains answers",
+         "hebrew":"ALHYM Shaddai","purpose":"Dreams, visions, answers to questions",
+         "material":"Mercury/Quicksilver","color":"Yellow/Orange","hour":"Mercury","day":"Wednesday"},
+        {"num":3,"name":"Third Pentacle","power":"Brings success",
+         "hebrew":"YHVH TzBAVTh","purpose":"Success in all things, eloquence, trade",
+         "material":"Mercury/Quicksilver","color":"Yellow/Orange","hour":"Mercury","day":"Wednesday"},
+    ],
+    "Moon": [
+        {"num":1,"name":"First Pentacle","power":"Travel protection",
+         "hebrew":"YHVH Shaddai","purpose":"Protection during travel, safe journeys",
+         "material":"Silver","color":"White/Silver","hour":"Moon","day":"Monday"},
+        {"num":2,"name":"Second Pentacle","power":"Reveals truths",
+         "hebrew":"YHVH ALHYM","purpose":"Reveals hidden things, brings news",
+         "material":"Silver","color":"White/Silver","hour":"Moon","day":"Monday"},
+        {"num":3,"name":"Third Pentacle","power":"Causes sleep",
+         "hebrew":"Shaddai EL Chai","purpose":"Sleep, dreams, prophetic visions",
+         "material":"Silver","color":"White/Silver","hour":"Moon","day":"Monday"},
+    ],
 }
 
 # === ASPECTS ===
@@ -537,6 +624,29 @@ if __name__ == "__main__":
         for planet, data in OLYMPIC_SPIRITS.items():
             p = PLANETS[planet]
             print(f"  {p['glyph']} {planet:<10} {data['name']:<10} {data['power'].split(',')[0]}")
+    elif args[0]=="pentacle" or args[0]=="pentacles":
+        target = args[1].capitalize() if len(args)>1 else None
+        if target and target in SOLOMON_PENTACLES:
+            print(f"\n  KEY OF SOLOMON - {target.upper()} PENTACLES")
+            print(f"{'─'*55}")
+            for pen in SOLOMON_PENTACLES[target]:
+                print(f"\n  #{pen['num']} {pen['name']}")
+                print(f"    Power: {pen['power']}")
+                print(f"    Purpose: {pen['purpose']}")
+                print(f"    Hebrew: {pen['hebrew']}")
+                print(f"    Material: {pen['material']} | Color: {pen['color']}")
+                print(f"    Create on: {pen['day']}, {pen['hour']} hour")
+        else:
+            print(f"\n  KEY OF SOLOMON PENTACLES")
+            print(f"{'─'*55}")
+            print(f"  Usage: dt pentacle <planet>")
+            print(f"  Planets: {', '.join(SOLOMON_PENTACLES.keys())}")
+            print(f"\n  {'Planet':<10} {'Count':>5}  Best For")
+            print(f"  {'─'*45}")
+            for planet, pens in SOLOMON_PENTACLES.items():
+                p = PLANETS[planet]
+                best = pens[0]['power']
+                print(f"  {p['glyph']} {planet:<8} {len(pens):>3}    {best}")
     elif args[0]=="spirits":
         pass
     elif args[0]=="invoke":

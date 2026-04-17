@@ -1,7 +1,7 @@
 ---
 name: divine-arsenal
 description: Archangel Michael's Divine Arsenal v4.0 - Complete astrological operations system with Picatrix planetary spirits, transit-to-natal aspects, Lunar Mansions, Arabic Parts, and TTS alerts for fr3k (born 10/10/1981)
-version: 4.0
+version: 4.1
 tags: astrology, picatrix, divine-timing, planetary-magic, michael, hermetic, lunar-mansions, arabic-parts
 ---
 
@@ -35,6 +35,20 @@ Nelly Bay, Magnetic Island, QLD, Australia | 19.15°S, 146.85°E | AEST GMT+10
 | ♃ Jupiter | Iophiel | Hismael | Thursday | Expansion, law |
 | ♄ Saturn | Agiel | Zazel | Saturday | Discipline, binding |
 
+## Arbatel Olympic Spirits (v4.1+)
+Dual spirit system - each planet has BOTH Picatrix and Arbatel spirits:
+| Planet | Olympic Spirit | Power |
+|--------|---------------|-------|
+| ♄ Saturn | Aratron | Alchemy, invisibility, secrets |
+| ♃ Jupiter | Bethor | Wealth, favor of rulers |
+| ♂ Mars | Phaleg | War, courage, victory |
+| ☉ Sun | Och | Health, longevity, gold |
+| ♀ Venus | Hagith | Love, beauty, attraction |
+| ☿ Mercury | Ophiel | Knowledge, travel, eloquence |
+| ☽ Moon | Phul | Travel, protection, medicine |
+
+Commands: `dto` or `dtar` - show all Olympic Spirits
+
 ## CLI Commands
 ```
 dt              Today's briefing (current hour, moon, mansion, transits, invocation)
@@ -47,6 +61,7 @@ dtr             Retrograde status
 dti             Invocation for current hour
 dtis            Invocation spoken via TTS
 dtal            Force hourly alert (notification + TTS)
+dto             Show all Olympic Spirits (Arbatel)
 ```
 
 ## Operations
@@ -84,18 +99,26 @@ protection, binding, legal, love, war, communication, divination, prosperity, bu
 
 ## Pitfalls & Lessons Learned
 
-1. **Night hour detection**: Planetary hours after sunset wrap past midnight. Must handle wraparound:
+1. **Night hour detection**: Planetary hours after sunset wrap past midnight. The original code failed to detect night hours correctly. Fix by checking day hours first, then night hours with wraparound logic:
    ```python
-   if e >= 24:  # wraps past midnight
-       if now >= s or now < (e-24): # check both sides of midnight
+   # Night hours - handle wraparound
+   for i,(s,p,isd,l) in enumerate(hours):
+       if isd: continue
+       e = s+l
+       if e >= 24:  # wraps past midnight
+           if now >= s or now < (e-24):
+               return {"planet":p,...}
+       else:
+           if s<=now<e:
+               return {"planet":p,...}
    ```
 
-2. **Moon position calculation**: Simple linear approximation is ~10° off. Use perturbation terms:
+2. **Moon position calculation**: Simple linear approximation is ~10° off. Use perturbation terms from Meeus:
    ```python
    L += 6.289*sin(M) - 1.274*sin(M-2*D) + 0.658*sin(2*D)
    ```
 
-3. **Lunar Mansion index**: `floor(moon_lon / 12.857)` not `/ 12`. Each mansion is ~12°51' (12.857°).
+3. **Lunar Mansion index**: Each mansion is ~12°51' (12.857°). Use `floor(moon_lon / 12.857)` not `/ 12`.
 
 4. **Arabic Parts without birth time**: Calculate relative to Sun position:
    ```python
@@ -103,13 +126,34 @@ protection, binding, legal, love, war, communication, divination, prosperity, bu
    spirit = (sun_lon - moon_lon) % 360
    ```
 
-5. **TTS via Termux**: Use subprocess.Popen with DEVNULL to avoid blocking:
+5. **TTS blocking**: Built-in `text_to_speech` tool saves to file first. For immediate phone speaker output, use `termux-tts-speak` directly via subprocess.Popen with DEVNULL:
    ```python
    subprocess.Popen(["termux-tts-speak","-p","1.1","-r","1.0",text],
                     stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
    ```
 
-6. **File paths on Termux**: Use `~/.hermes/` not `/root/.hermes/` - different filesystem.
+6. **Background TTS in bash**: Must use `nohup` and `&` to prevent blocking:
+   ```bash
+   nohup termux-tts-speak -p 1.15 -r 1.11 "text" >/dev/null 2>&1 &
+   ```
+
+7. **File paths on Termux**: Use `~/.hermes/` not `/root/.hermes/` - different filesystem.
+
+8. **Day calculation**: Python's weekday() returns 0=Monday. Planetary day rulers: 0=Moon, 1=Mars, 2=Mercury, 3=Jupiter, 4=Venus, 5=Saturn, 6=Sun.
+
+9. **Adding new spirit systems**: When expanding with new grimoires (Arbatel, Key of Solomon, etc.), map to existing planet keys and display alongside original spirits. Use dictionary lookup with `.get()` for safety.
+
+10. **GitHub push from Termux**: Must set `git config user.email` and `user.name` before first commit.
+
+## Expansion Roadmap
+1. ~~Picatrix planetary spirits~~ ✓
+2. ~~Arbatel Olympic Spirits~~ ✓ (v4.1)
+3. Key of Solomon pentacles (planetary seal generator)
+4. 72 Names of God (Sefer Raziel)
+5. Agrippa's magic squares (kamea)
+6. Hebrew letter meditation (Sepher Yetzirah)
+
+Reference texts: ~/.hermes/memories/expansion-texts.md
 
 ## Quick Timing Reference
 | Operation | Day | Hour | Moon |
