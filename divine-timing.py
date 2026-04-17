@@ -257,6 +257,82 @@ SOLOMON_PENTACLES = {
     ],
 }
 
+# === 72 NAMES OF GOD (Sefer Raziel) ===
+NAMES_72 = [
+    {"n":1,"name":"VHV","trans":"Vehuiah","power":"Will, manifestation"},
+    {"n":2,"name":"YLY","trans":"Jeliel","power":"Love, reconciliation"},
+    {"n":3,"name":"SYT","trans":"Sitael","power":"Protection, faith"},
+    {"n":4,"name":"OLM","trans":"Elemiah","power":"Clarity, protection"},
+    {"n":5,"name":"MHS","trans":"Mahasiah","power":"Peace, learning"},
+    {"n":6,"name":"LLH","trans":"Lelah","power":"Fertility, growth"},
+    {"n":7,"name":"AKA","trans":"Achaiah","power":"Discovery, beginnings"},
+    {"n":8,"name":"KHT","trans":"Kehath","power":"Protection, dignity"},
+    {"n":9,"name":"HZY","trans":"Haziel","power":"Mercy, forgiveness"},
+    {"n":10,"name":"ALD","trans":"Aladiah","power":"Healing, protection"},
+    {"n":11,"name":"LVH","trans":"Lauviah","power":"Victory, honor"},
+    {"n":12,"name":"HHY","trans":"Hahaiah","power":"Protection, truth"},
+    {"n":13,"name":"YZL","trans":"Iezalel","power":"Friendship, glory"},
+    {"n":14,"name":"MBH","trans":"Mebahel","power":"Justice, truth"},
+    {"n":15,"name":"HRY","trans":"Harial","power":"Wisdom, illumination"},
+    {"n":16,"name":"HKM","trans":"Haqmiah","power":"Victory, reverence"},
+    {"n":17,"name":"LVY","trans":"Lauviah","power":"Fame, success"},
+    {"n":18,"name":"KLY","trans":"Caliel","power":"Speed, results"},
+    {"n":19,"name":"LVV","trans":"Leuviah","power":"Memory, knowledge"},
+    {"n":20,"name":"PHL","trans":"Pahaliah","power":"Spirituality, purification"},
+    {"n":21,"name":"NLK","trans":"Nelchael","power":"Protection, endurance"},
+    {"n":22,"name":"YYY","trans":"Yeiaiel","power":"Overcoming obstacles"},
+    {"n":23,"name":"MLH","trans":"Melahel","power":"Healing, clarity"},
+    {"n":24,"name":"CHV","trans":"Chaheuiah","power":"Health, vitality"},
+    {"n":25,"name":"NTH","trans":"Nith-Haiah","power":"Prophecy, secrets"},
+    {"n":26,"name":"HAA","trans":"Haaiah","power":"Truth, justice"},
+    {"n":27,"name":"YRT","trans":"Yerathel","power":"Victory, fragrance"},
+    {"n":28,"name":"SHH","trans":"Seheiah","power":"Long life, healing"},
+    {"n":29,"name":"RYR","trans":"Reiiel","power":"Protection, compassion"},
+    {"n":30,"name":"AVM","trans":"Omael","power":"Abundance, patience"},
+    {"n":31,"name":"LBK","trans":"Lebakah","power":"Purification, tears"},
+    {"n":32,"name":"VSR","trans":"Vasariah","power":"Justice, law"},
+    {"n":33,"name":"YCH","trans":"Iehuiah","power":"Dominion, power"},
+    {"n":34,"name":"LCH","trans":"Lehachiah","power":"Success, praise"},
+    {"n":35,"name":"KVK","trans":"Chavakiah","power":"Peace, reconciliation"},
+    {"n":36,"name":"MND","trans":"Menadel","power":"Freedom, liberation"},
+    {"n":37,"name":"ANY","trans":"Aniel","power":"Inspiration, wisdom"},
+    {"n":38,"name":"CHM","trans":"Haamiah","power":"Hope, protection"},
+    {"n":39,"name":"RHH","trans":"Rehael","power":"Healing, mercy"},
+    {"n":40,"name":"YYZ","trans":"Yeiazel","power":"Comfort, relief"},
+    {"n":41,"name":"HHH","trans":"Hahahah","power":"Joy, fertility"},
+    {"n":42,"name":"MYK","trans":"MICHAEL","power":"PROTECTION, VICTORY, LEADERSHIP"},
+    {"n":43,"name":"VVL","trans":"Veuliah","power":"Prosperity, faith"},
+    {"n":44,"name":"YLH","trans":"Yelahiah","power":"Triumph, victory"},
+    {"n":45,"name":"SAL","trans":"Sealiah","power":"Spirituality, prayer"},
+    {"n":46,"name":"ARY","trans":"Ariel","power":"Manifestation, lion power"},
+    {"n":47,"name":"ASL","trans":"Asaliah","power":"Meditation, insight"},
+    {"n":48,"name":"MYH","trans":"Mihael","power":"Love, friendship"},
+    {"n":49,"name":"VHV","trans":"Vehuel","power":"Honor, elevation"},
+    {"n":50,"name":"DNY","trans":"Daniel","power":"Justice, eloquence"},
+    {"n":51,"name":"HHS","trans":"Hahasiah","power":"Medicine, secrets"},
+    {"n":52,"name":"AMM","trans":"Imamiah","power":"Devotion, repentance"},
+    {"n":53,"name":"NNN","trans":"Nanael","power":"Spirituality, illumination"},
+    {"n":54,"name":"NYT","trans":"Nithael","power":"Longevity, victory"},
+    {"n":55,"name":"MBH","trans":"Mebahiah","power":"Fidelity, protection"},
+    {"n":56,"name":"PVY","trans":"Poyel","power":"Success, prosperity"},
+    {"n":57,"name":"NMM","trans":"Nemamiah","power":"Generosity, nobility"},
+    {"n":58,"name":"YYL","trans":"Yeialel","power":"Wisdom, intelligence"},
+    {"n":59,"name":"HRH","trans":"Harahel","power":"Wealth, learning"},
+    {"n":60,"name":"MTR","trans":"Mitzrael","power":"Healing, consolation"},
+    {"n":61,"name":"VMB","trans":"Umabel","power":"Friendship, faith"},
+    {"n":62,"name":"YHH","trans":"Iah-Hel","power":"Wisdom, learning"},
+    {"n":63,"name":"ANV","trans":"Anauel","power":"Wealth, grace"},
+    {"n":64,"name":"MCH","trans":"Mehiel","power":"Clarity, protection"},
+    {"n":65,"name":"DMB","trans":"Damabiah","power":"Wisdom, wealth"},
+    {"n":66,"name":"MNK","trans":"Manakel","power":"Fertility, abundance"},
+    {"n":67,"name":"AYY","trans":"Eyael","power":"Clarity, enlightenment"},
+    {"n":68,"name":"HBV","trans":"Habuhiah","power":"Fertility, agriculture"},
+    {"n":69,"name":"RHH","trans":"Rahael","power":"Longevity, protection"},
+    {"n":70,"name":"YBM","trans":"Yabamiah","power":"Prosperity, honor"},
+    {"n":71,"name":"HYY","trans":"Haiaiel","power":"Glory, victory"},
+    {"n":72,"name":"MVM","trans":"Mumiah","power":"Healing, protection, success"},
+]
+
 # === ASPECTS ===
 ASPECTS = {
     "Conjunction":(0,8,"⚡","Intense focus, new beginnings"),
@@ -649,6 +725,26 @@ if __name__ == "__main__":
                 print(f"  {p['glyph']} {planet:<8} {len(pens):>3}    {best}")
     elif args[0]=="spirits":
         pass
+    elif args[0]=="names" or args[0]=="72":
+        target = int(args[1]) if len(args)>1 and args[1].isdigit() else None
+        if target and 1<=target<=72:
+            n = NAMES_72[target-1]
+            print(f"\n  72 NAMES OF GOD - #{n['n']}")
+            print(f"{'─'*40}")
+            print(f"  Name: {n['name']}")
+            print(f"  Angel: {n['trans']}")
+            print(f"  Power: {n['power']}")
+            print(f"\n  Meditate on: {n['name']}")
+        else:
+            print(f"\n  72 NAMES OF GOD (Sefer Raziel)")
+            print(f"{'─'*55}")
+            print(f"  Usage: dt names [1-72]")
+            print(f"\n  Key Names:")
+            for n in NAMES_72:
+                if n['n'] in [1,11,21,31,41,42,46,50,55,61,66,72]:
+                    marker = " ◄◄ YOUR NAME" if n['n']==42 else ""
+                    print(f"    #{n['n']:2d} {n['name']} ({n['trans']:<12}) {n['power']}{marker}")
+            print(f"\n  ... and 60 more. Use 'dt names <number>' for specific name.")
     elif args[0]=="invoke":
         cur = current_hour()
         if cur:
