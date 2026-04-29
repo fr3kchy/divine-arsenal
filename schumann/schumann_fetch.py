@@ -23,6 +23,12 @@ TOMSK_IMG = "https://sosrff.tsu.ru/new/shm.jpg"
 NOAA_KP   = "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json"
 NOAA_SOLAR_WIND = "https://services.swpc.noaa.gov/products/summary/solar-wind-speed.json"
 
+def _utcnow_iso() -> str:
+    return dt.datetime.now(dt.UTC).isoformat().replace("+00:00", "Z")
+
+def _utcnow() -> dt.datetime:
+    return dt.datetime.now(dt.UTC).replace(tzinfo=None)
+
 def _get(url: str, timeout: int = 15, insecure: bool = False) -> bytes:
     ctx = ssl._create_unverified_context() if insecure else None
     req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -40,7 +46,7 @@ def fetch_tomsk_spectrogram() -> dict:
             "ok": True,
             "bytes": len(img),
             "path": str(path),
-            "fetched_at": dt.datetime.utcnow().isoformat() + "Z",
+            "fetched_at": _utcnow_iso(),
         })
     except Exception as e:
         out["error"] = f"{type(e).__name__}: {e}"
@@ -57,7 +63,7 @@ def fetch_noaa_kp() -> dict:
             raise RuntimeError("no kp rows")
         last = rows[-1]
         kp = float(last["kp_index"])
-        cutoff = dt.datetime.utcnow() - dt.timedelta(hours=24)
+        cutoff = _utcnow() - dt.timedelta(hours=24)
         kp24 = []
         for r in rows[-1500:]:
             try:
@@ -118,7 +124,7 @@ def build_state() -> dict:
     regime, tone = classify_regime(kp_now, kp_max, sr.get("ok", False))
 
     state = {
-        "fetched_at": dt.datetime.utcnow().isoformat() + "Z",
+        "fetched_at": _utcnow_iso(),
         "regime": regime,
         "hermetic_tone": tone,
         "kp_now": kp_now,

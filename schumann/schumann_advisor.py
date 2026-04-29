@@ -71,6 +71,19 @@ def load_sr() -> dict | None:
     except Exception:
         return None
 
+def is_stale(sr: dict, max_age_min: int = 90) -> tuple[bool, float]:
+    """Return (is_stale, age_minutes). Treat unparseable timestamps as stale."""
+    try:
+        ft = sr.get("fetched_at", "")
+        # Parse ISO with optional 'Z'
+        ts = dt.datetime.fromisoformat(ft.replace("Z", "+00:00"))
+        if ts.tzinfo is None:
+            ts = ts.replace(tzinfo=dt.UTC)
+        age = (dt.datetime.now(dt.UTC) - ts).total_seconds() / 60.0
+        return (age > max_age_min, age)
+    except Exception:
+        return (True, -1.0)
+
 def current_planetary_hour() -> str:
     """Shell out to divine-timing.py and parse current hour ruler."""
     import subprocess, re
@@ -92,7 +105,12 @@ def main():
         print("ERROR: no SR data — run schumann_fetch.py first", file=sys.stderr)
         return 2
     hour = current_planetary_hour()
+    stale, age_min = is_stale(sr)
     verdict, reason = verdict_for(sr.get("regime","UNKNOWN"), hour)
+    if stale:
+        # Don't trust stale verdict — degrade to UNKNOWN, advisory only
+        verdict = "UNKNOWN"
+        reason = f"SR data stale (age {age_min:.0f} min). Last regime: {sr.get('regime')}. Refresh fetcher before relying."
     out = {
         "computed_at": dt.datetime.now(dt.UTC).isoformat(),
         "verdict": verdict,
@@ -103,6 +121,8 @@ def main():
         "kp_24h_max": sr.get("kp_24h_max"),
         "wind_kms": sr.get("solar_wind_kms"),
         "hermetic_tone": sr.get("hermetic_tone"),
+        "data_age_min": round(age_min, 1),
+        "stale": stale,
     }
     OUT.write_text(json.dumps(out, indent=2))
 
@@ -116,6 +136,7 @@ def main():
     print(f"  Kp now:   {sr.get('kp_now')}   24h max: {sr.get('kp_24h_max')}")
     print(f"  Wind:     {sr.get('solar_wind_kms')} km/s")
     print(f"  SR feed:  {'ok' if sr.get('sr_image_ok') else 'DOWN'}")
+    print(f"  Age:      {age_min:.1f} min{' ⚠ STALE' if stale else ''}")
     print()
     print(f"  → {reason}")
     print("=" * 65)
