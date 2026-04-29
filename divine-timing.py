@@ -574,20 +574,37 @@ def hm(d):
 def lon_str(lon):
     return f"{lon%30:.1f}°{SIGN_GLYPHS[int(lon/30)%12]}"
 
+def _log_degradation(component, event, **payload):
+    """Structured degradation event when Termux:API is unavailable (e.g., WSL)."""
+    import json as _j
+    from datetime import datetime as _dt, timezone as _tz
+    from pathlib import Path as _P
+    p = _P.home() / ".hermes" / "data" / "degradation_events.jsonl"
+    p.parent.mkdir(parents=True, exist_ok=True)
+    rec = {"ts": _dt.now(_tz.utc).isoformat().replace("+00:00", "Z"),
+           "component": component, "event": event, **payload}
+    try:
+        with open(p, "a") as f:
+            f.write(_j.dumps(rec) + "\n")
+    except Exception:
+        sys.stderr.write(f"[degrade] {component}/{event}: {payload}\n")
+
 def tts(text):
-    """Send text to speech via Termux:API."""
+    """Send text to speech via Termux:API. No-op on non-Termux platforms (logged)."""
     try:
         subprocess.Popen(["termux-tts-speak","-p","1.1","-r","1.0",text],
                         stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
-    except: pass
+    except (FileNotFoundError, OSError) as e:
+        _log_degradation("divine_timing", "termux_tts_unavailable", error=str(e), text_len=len(text))
 
 def notify(title, content, nid="divine"):
-    """Send notification via Termux:API."""
+    """Send notification via Termux:API. No-op on non-Termux platforms (logged)."""
     try:
         subprocess.Popen(["termux-notification","--title",title,"--content",content,
                          "--id",nid,"--priority","high","--sound","--vibrate","500"],
                         stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
-    except: pass
+    except (FileNotFoundError, OSError) as e:
+        _log_degradation("divine_timing", "termux_notify_unavailable", error=str(e), title=title)
 
 # === MAIN BRIEFING ===
 def briefing(date=None, verbose=False):
@@ -674,7 +691,27 @@ def briefing(date=None, verbose=False):
     # Retrogrades
     if retrog:
         print(f"\n  ⚠  RETROGRADE: {', '.join(retrog)}")
-    
+
+    # Schumann / Geomag block
+    try:
+        import json as _json
+        srp = Path.home() / ".hermes/data/sr/latest.json"
+        if srp.exists():
+            sr = _json.loads(srp.read_text())
+            print(f"\n{'─'*65}")
+            print(f"  ⚡ EARTH RESONANCE (Schumann + Geomag)")
+            print(f"{'─'*65}")
+            print(f"  Regime: {sr.get('regime')} | Tone: {sr.get('hermetic_tone')}")
+            print(f"  Kp: {sr.get('kp_now')} (24h max {sr.get('kp_24h_max')}) | Wind: {sr.get('solar_wind_kms')} km/s")
+            print(f"  SR feed: {'ok' if sr.get('sr_image_ok') else 'DOWN'} | f0≈{sr.get('sr_fundamental_hz')} Hz")
+            vp = Path.home() / ".hermes/data/sr/verdict.json"
+            if vp.exists():
+                v = _json.loads(vp.read_text())
+                icon = {"GO":"🟢","CAUTION":"🟡","DEFER":"🟠","RED":"🔴"}.get(v.get("verdict",""),"⚪")
+                print(f"  Verdict: {icon} {v.get('verdict')} — {v.get('reason')}")
+    except Exception as _e:
+        pass
+
     # Hours
     print(f"\n{'─'*65}")
     print(f"  PLANETARY HOURS")
