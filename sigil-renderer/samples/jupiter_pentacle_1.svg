@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#0a0a12"/>
+  <circle cx="400.0" cy="400.0" r="360" stroke="#1a3a8a" stroke-width="3" fill="none"/>
+  <circle cx="400.0" cy="400.0" r="345" stroke="#1a3a8a" stroke-width="1" fill="none"/>
+  <path d="M 400.00 160.00 L 607.85 520.00 L 192.15 520.00 Z" stroke="#6699ff" stroke-width="2.5" fill="none"/>
+  <path d="M 607.85 280.00 L 400.00 640.00 L 192.15 280.00 Z" stroke="#6699ff" stroke-width="2.5" fill="none"/>
+  <text x="400.00" y="110.00" font-size="22" fill="#6699ff" text-anchor="middle" font-family="serif" font-weight="bold">ABN MAS VH</text>
+  <circle cx="400.0" cy="400.0" r="310" stroke="#3366cc" stroke-width="1" fill="none"/>
+  <text x="400.00" y="750.00" font-size="18" fill="#6699ff" text-anchor="middle" font-family="serif" font-weight="bold">♃ First Pentacle</text>
+  <text x="400.00" y="775.00" font-size="13" fill="#3366cc" text-anchor="middle" font-family="serif" font-weight="normal">Acquires treasures</text>
+  <text x="400.00" y="40.00" font-size="28" fill="#6699ff" text-anchor="middle" font-family="serif" font-weight="bold">JUPITER</text>
+  <circle cx="400.0" cy="400.0" r="80" stroke="#3366cc" stroke-width="1" fill="none"/>
+  <circle cx="400.0" cy="400.0" r="20" stroke="#6699ff" stroke-width="2" fill="none"/>
+</svg>

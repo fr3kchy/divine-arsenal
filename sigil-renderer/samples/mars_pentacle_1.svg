@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#0a0a12"/>
+  <circle cx="400.0" cy="400.0" r="360" stroke="#8a1a1a" stroke-width="3" fill="none"/>
+  <circle cx="400.0" cy="400.0" r="345" stroke="#8a1a1a" stroke-width="1" fill="none"/>
+  <path d="M 400.00 160.00 L 541.07 594.16 M 541.07 594.16 L 171.75 325.84 M 171.75 325.84 L 628.25 325.84 M 628.25 325.84 L 258.93 594.16 M 258.93 594.16 L 400.00 160.00" stroke="#ff6666" stroke-width="2.5" fill="none"/>
+  <text x="400.00" y="110.00" font-size="22" fill="#ff6666" text-anchor="middle" font-family="serif" font-weight="bold">יהוה אלהים</text>
+  <circle cx="400.0" cy="400.0" r="310" stroke="#cc3333" stroke-width="1" fill="none"/>
+  <text x="400.00" y="750.00" font-size="18" fill="#ff6666" text-anchor="middle" font-family="serif" font-weight="bold">♂ First Pentacle</text>
+  <text x="400.00" y="775.00" font-size="13" fill="#cc3333" text-anchor="middle" font-family="serif" font-weight="normal">Victory in war</text>
+  <text x="400.00" y="40.00" font-size="28" fill="#ff6666" text-anchor="middle" font-family="serif" font-weight="bold">MARS</text>
+  <circle cx="400.0" cy="400.0" r="80" stroke="#cc3333" stroke-width="1" fill="none"/>
+  <circle cx="400.0" cy="400.0" r="20" stroke="#ff6666" stroke-width="2" fill="none"/>
+</svg>

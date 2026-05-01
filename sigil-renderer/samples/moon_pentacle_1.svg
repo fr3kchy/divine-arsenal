@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#0a0a12"/>
+  <circle cx="400.0" cy="400.0" r="360" stroke="#6a6a8a" stroke-width="3" fill="none"/>
+  <circle cx="400.0" cy="400.0" r="345" stroke="#6a6a8a" stroke-width="1" fill="none"/>
+  <path d="M 400.00 160.00 A 240.00 240.00 0 1 0 400.00 640.00" stroke="#ccccff" stroke-width="2.5" fill="none"/>
+  <path d="A 168.00 168.00 0 1 1 400.00 160.00" stroke="#ccccff" stroke-width="2.5" fill="none"/>
+  <circle cx="400.0" cy="400.0" r="180" stroke="#ccccff" stroke-width="1.5" fill="none"/>
+  <text x="400.00" y="110.00" font-size="22" fill="#ccccff" text-anchor="middle" font-family="serif" font-weight="bold">יהוה שדי</text>
+  <circle cx="400.0" cy="400.0" r="310" stroke="#9999dd" stroke-width="1" fill="none"/>
+  <text x="400.00" y="750.00" font-size="18" fill="#ccccff" text-anchor="middle" font-family="serif" font-weight="bold">☽ First Pentacle</text>
+  <text x="400.00" y="775.00" font-size="13" fill="#9999dd" text-anchor="middle" font-family="serif" font-weight="normal">Travel protection</text>
+  <text x="400.00" y="40.00" font-size="28" fill="#ccccff" text-anchor="middle" font-family="serif" font-weight="bold">MOON</text>
+  <circle cx="400.0" cy="400.0" r="80" stroke="#9999dd" stroke-width="1" fill="none"/>
+  <circle cx="400.0" cy="400.0" r="20" stroke="#ccccff" stroke-width="2" fill="none"/>
+</svg>

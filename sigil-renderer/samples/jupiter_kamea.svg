@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#0a0a12"/>
+  <text x="400.00" y="50.00" font-size="24" fill="#6699ff" text-anchor="middle" font-family="serif" font-weight="bold">♃ JUPITER KAMEA</text>
+  <text x="400.00" y="75.00" font-size="12" fill="#3366cc" text-anchor="middle" font-family="serif" font-weight="normal">4×4 — Magic Sum: 46</text>
+  <rect x="150.00" y="150.00" width="125.00" height="125.00" stroke="#1a3a8a" stroke-width="1" fill="#1a2a5a"/>
+  <text x="212.50" y="217.50" font-size="14" fill="#6699ff" text-anchor="middle" font-family="monospace" font-weight="normal">4</text>
+  <rect x="275.00" y="150.00" width="125.00" height="125.00" stroke="#1a3a8a" stroke-width="1" fill="#1a2a5a"/>
+  <text x="337.50" y="217.50" font-size="14" fill="#6699ff" text-anchor="middle" font-family="monospace" font-weight="normal">14</text>
+  <rect x="400.00" y="150.00" width="125.00" height="125.00" stroke="#1a3a8a" stroke-width="1" fill="#1a2a5a"/>
+  <text x="462.50" y="217.50" font-size="14" fill="#6699ff" text-anchor="middle" font-family="monospace" font-weight="normal">15</text>
+  <rect x="525.00" y="150.00" width="125.00" height="125.00" stroke="#1a3a8a" stroke-width="1" fill="#1a2a5a"/>
+  <text x="587.50" y="217.50" font-size="14" fill="#6699ff" text-anchor="middle" font-family="monospace" font-weight="normal">1</text>
+  <rect x="150.00" y="275.00" width="125.00" height="125.00" stroke="#1a3a8a" stroke-width="1" fill="#1a2a5a"/>
+  <text x="212.50" y="342.50" font-size="14" fill="#6699ff" text-anchor="middle" font-family="monospace" font-weight="normal">9</text>
+  <rect x="275.00" y="275.00" width="125.00" height="125.00" stroke="#1a3a8a" stroke-width="1" fill="#1a2a5a"/>
+  <text x="337.50" y="342.50" font-size="14" fill="#6699ff" text-anchor="middle" font-family="monospace" font-weight="normal">7</text>
+  <rect x="400.00" y="275.00" width="125.00" height="125.00" stroke="#1a3a8a" stroke-width="1" fill="#1a2a5a"/>
+  <text x="462.50" y="342.50" font-size="14" fill="#6699ff" text-anchor="middle" font-family="monospace" font-weight="normal">6</text>
+  <rect x="525.00" y="275.00" width="125.00" height="125.00" stroke="#1a3a8a" stroke-width="1" fill="#1a2a5a"/>
+  <text x="587.50" y="342.50" font-size="14" fill="#6699ff" text-anchor="middle" font-family="monospace" font-weight="normal">12</text>
+  <rect x="150.00" y="400.00" width="125.00" height="125.00" stroke="#1a3a8a" stroke-width="1" fill="#1a2a5a"/>
+  <text x="212.50" y="467.50" font-size="14" fill="#6699ff" text-anchor="middle" font-family="monospace" font-weight="normal">5</text>
+  <rect x="275.00" y="400.00" width="125.00" height="125.00" stroke="#1a3a8a" stroke-width="1" fill="#1a2a5a"/>
+  <text x="337.50" y="467.50" font-size="14" fill="#6699ff" text-anchor="middle" font-family="monospace" font-weight="normal">11</text>
+  <rect x="400.00" y="400.00" width="125.00" height="125.00" stroke="#1a3a8a" stroke-width="1" fill="#1a2a5a"/>
+  <text x="462.50" y="467.50" font-size="14" fill="#6699ff" text-anchor="middle" font-family="monospace" font-weight="normal">10</text>
+  <rect x="525.00" y="400.00" width="125.00" height="125.00" stroke="#1a3a8a" stroke-width="1" fill="#1a2a5a"/>
+  <text x="587.50" y="467.50" font-size="14" fill="#6699ff" text-anchor="middle" font-family="monospace" font-weight="normal">8</text>
+  <rect x="150.00" y="525.00" width="125.00" height="125.00" stroke="#1a3a8a" stroke-width="1" fill="#1a2a5a"/>
+  <text x="212.50" y="592.50" font-size="14" fill="#6699ff" text-anchor="middle" font-family="monospace" font-weight="normal">16</text>
+  <rect x="275.00" y="525.00" width="125.00" height="125.00" stroke="#1a3a8a" stroke-width="1" fill="#1a2a5a"/>
+  <text x="337.50" y="592.50" font-size="14" fill="#6699ff" text-anchor="middle" font-family="monospace" font-weight="normal">2</text>
+  <rect x="400.00" y="525.00" width="125.00" height="125.00" stroke="#1a3a8a" stroke-width="1" fill="#1a2a5a"/>
+  <text x="462.50" y="592.50" font-size="14" fill="#6699ff" text-anchor="middle" font-family="monospace" font-weight="normal">3</text>
+  <rect x="525.00" y="525.00" width="125.00" height="125.00" stroke="#1a3a8a" stroke-width="1" fill="#1a2a5a"/>
+  <text x="587.50" y="592.50" font-size="14" fill="#6699ff" text-anchor="middle" font-family="monospace" font-weight="normal">13</text>
+  <rect x="150.00" y="150.00" width="500.00" height="500.00" stroke="#1a3a8a" stroke-width="3" fill="none"/>
+  <rect x="145.00" y="145.00" width="510.00" height="510.00" stroke="#3366cc" stroke-width="1" fill="none"/>
+</svg>
