@@ -1,0 +1,874 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="2080" viewBox="0 0 1800 2080">
+<defs>
+<style>
+text { font-family: Arial, Helvetica, sans-serif; }
+</style>
+</defs>
+<rect width="1800" height="2080" fill="#0d0d1a"/>
+<g transform="translate(4,4)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#3498DB" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Vehuiah</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#3498DB">#01</text>
+<text x="10" y="130" font-size="20" fill="#888">♈</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Aries 0°</text>
+<text x="10" y="155" font-size="14" fill="#3498DB">♃</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Jupiter</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Creator, beginning and end</text>
+</g>
+<g transform="translate(204,4)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#3498DB" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Jeliel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#3498DB">#02</text>
+<text x="10" y="130" font-size="20" fill="#888">♈</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Aries 5°</text>
+<text x="10" y="155" font-size="14" fill="#3498DB">♃</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Jupiter</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Beloved, love of friends</text>
+</g>
+<g transform="translate(404,4)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#3498DB" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Mebahel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#3498DB">#03</text>
+<text x="10" y="130" font-size="20" fill="#888">♈</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Aries 10°</text>
+<text x="10" y="155" font-size="14" fill="#3498DB">♃</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Jupiter</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Mercy, friendship with God</text>
+</g>
+<g transform="translate(604,4)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#3498DB" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אל</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Lahahel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#3498DB">#04</text>
+<text x="10" y="130" font-size="20" fill="#888">♈</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Aries 15°</text>
+<text x="10" y="155" font-size="14" fill="#3498DB">♃</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Jupiter</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Creator, strength</text>
+</g>
+<g transform="translate(804,4)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#3498DB" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Achaiah</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#3498DB">#05</text>
+<text x="10" y="130" font-size="20" fill="#888">♈</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Aries 20°</text>
+<text x="10" y="155" font-size="14" fill="#3498DB">♃</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Jupiter</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Patience, truth</text>
+</g>
+<g transform="translate(1004,4)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#3498DB" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Chaistisa</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#3498DB">#06</text>
+<text x="10" y="130" font-size="20" fill="#888">♈</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Aries 25°</text>
+<text x="10" y="155" font-size="14" fill="#3498DB">♃</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Jupiter</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Holy, collecting scattered t</text>
+</g>
+<g transform="translate(1204,4)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#9B59B6" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Mikael</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#9B59B6">#07</text>
+<text x="10" y="130" font-size="20" fill="#888">♉</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Taurus 0°</text>
+<text x="10" y="155" font-size="14" fill="#9B59B6">♀</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Venus</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Righteousness, good deeds</text>
+</g>
+<g transform="translate(1404,4)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#9B59B6" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Yelahiah</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#9B59B6">#08</text>
+<text x="10" y="130" font-size="20" fill="#888">♉</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Taurus 5°</text>
+<text x="10" y="155" font-size="14" fill="#9B59B6">♀</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Venus</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Purity, devotion</text>
+</g>
+<g transform="translate(1604,4)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#9B59B6" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Sitel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#9B59B6">#09</text>
+<text x="10" y="130" font-size="20" fill="#888">♉</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Taurus 10°</text>
+<text x="10" y="155" font-size="14" fill="#9B59B6">♀</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Venus</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Understanding, inner hearing</text>
+</g>
+<g transform="translate(4,264)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#9B59B6" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אל</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Alyah</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#9B59B6">#10</text>
+<text x="10" y="130" font-size="20" fill="#888">♉</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Taurus 15°</text>
+<text x="10" y="155" font-size="14" fill="#9B59B6">♀</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Venus</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Exalted, crown of God</text>
+</g>
+<g transform="translate(204,264)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#9B59B6" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Mahalalel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#9B59B6">#11</text>
+<text x="10" y="130" font-size="20" fill="#888">♉</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Taurus 20°</text>
+<text x="10" y="155" font-size="14" fill="#9B59B6">♀</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Venus</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Blessed, praised God</text>
+</g>
+<g transform="translate(404,264)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#9B59B6" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Lelahel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#9B59B6">#12</text>
+<text x="10" y="130" font-size="20" fill="#888">♉</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Taurus 25°</text>
+<text x="10" y="155" font-size="14" fill="#9B59B6">♀</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Venus</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Will, desire</text>
+</g>
+<g transform="translate(604,264)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#B5B5B5" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Hahuiah</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#B5B5B5">#13</text>
+<text x="10" y="130" font-size="20" fill="#888">♊</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Gemini 0°</text>
+<text x="10" y="155" font-size="14" fill="#B5B5B5">☿</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mercury</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Wisdom, emerald</text>
+</g>
+<g transform="translate(804,264)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#B5B5B5" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Yezalel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#B5B5B5">#14</text>
+<text x="10" y="130" font-size="20" fill="#888">♊</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Gemini 5°</text>
+<text x="10" y="155" font-size="14" fill="#B5B5B5">☿</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mercury</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Memory, past lives</text>
+</g>
+<g transform="translate(1004,264)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#B5B5B5" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Mebahel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#B5B5B5">#15</text>
+<text x="10" y="130" font-size="20" fill="#888">♊</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Gemini 10°</text>
+<text x="10" y="155" font-size="14" fill="#B5B5B5">☿</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mercury</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Friend of God, kindness</text>
+</g>
+<g transform="translate(1204,264)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#B5B5B5" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אל</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Hakmeh</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#B5B5B5">#16</text>
+<text x="10" y="130" font-size="20" fill="#888">♊</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Gemini 15°</text>
+<text x="10" y="155" font-size="14" fill="#B5B5B5">☿</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mercury</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Wisdom, intelligence</text>
+</g>
+<g transform="translate(1404,264)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#B5B5B5" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Lauon</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#B5B5B5">#17</text>
+<text x="10" y="130" font-size="20" fill="#888">♊</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Gemini 20°</text>
+<text x="10" y="155" font-size="14" fill="#B5B5B5">☿</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mercury</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Fire, pillar of cloud</text>
+</g>
+<g transform="translate(1604,264)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#B5B5B5" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Keiaf</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#B5B5B5">#18</text>
+<text x="10" y="130" font-size="20" fill="#888">♊</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Gemini 25°</text>
+<text x="10" y="155" font-size="14" fill="#B5B5B5">☿</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mercury</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Treasure, hidden things</text>
+</g>
+<g transform="translate(4,524)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#C0C0C0" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Ahaiah</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#C0C0C0">#19</text>
+<text x="10" y="130" font-size="20" fill="#888">♋</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Cancer 0°</text>
+<text x="10" y="155" font-size="14" fill="#C0C0C0">☽</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Moon</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Lion, strength of God</text>
+</g>
+<g transform="translate(204,524)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#C0C0C0" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Ruhiel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#C0C0C0">#20</text>
+<text x="10" y="130" font-size="20" fill="#888">♋</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Cancer 5°</text>
+<text x="10" y="155" font-size="14" fill="#C0C0C0">☽</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Moon</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Friend of God</text>
+</g>
+<g transform="translate(404,524)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#C0C0C0" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Ylia</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#C0C0C0">#21</text>
+<text x="10" y="130" font-size="20" fill="#888">♋</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Cancer 10°</text>
+<text x="10" y="155" font-size="14" fill="#C0C0C0">☽</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Moon</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Beauty, ornament</text>
+</g>
+<g transform="translate(604,524)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#C0C0C0" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אל</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Aniel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#C0C0C0">#22</text>
+<text x="10" y="130" font-size="20" fill="#888">♋</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Cancer 15°</text>
+<text x="10" y="155" font-size="14" fill="#C0C0C0">☽</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Moon</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Strength, beauty of God</text>
+</g>
+<g transform="translate(804,524)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#C0C0C0" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Sachs</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#C0C0C0">#23</text>
+<text x="10" y="130" font-size="20" fill="#888">♋</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Cancer 20°</text>
+<text x="10" y="155" font-size="14" fill="#C0C0C0">☽</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Moon</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Understanding</text>
+</g>
+<g transform="translate(1004,524)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#C0C0C0" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Mmin</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#C0C0C0">#24</text>
+<text x="10" y="130" font-size="20" fill="#888">♋</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Cancer 25°</text>
+<text x="10" y="155" font-size="14" fill="#C0C0C0">☽</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Moon</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Truth, pillar of strength</text>
+</g>
+<g transform="translate(1204,524)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#8E44AD" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Nekahal</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#8E44AD">#25</text>
+<text x="10" y="130" font-size="20" fill="#888">♌</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Leo 0°</text>
+<text x="10" y="155" font-size="14" fill="#8E44AD">♄</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Saturn</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Scribe, righteousness</text>
+</g>
+<g transform="translate(1404,524)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#8E44AD" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Yebah</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#8E44AD">#26</text>
+<text x="10" y="130" font-size="20" fill="#888">♌</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Leo 5°</text>
+<text x="10" y="155" font-size="14" fill="#8E44AD">♄</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Saturn</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Lord of wisdom</text>
+</g>
+<g transform="translate(1604,524)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#8E44AD" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Yeyel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#8E44AD">#27</text>
+<text x="10" y="130" font-size="20" fill="#888">♌</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Leo 10°</text>
+<text x="10" y="155" font-size="14" fill="#8E44AD">♄</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Saturn</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Glory, radiance</text>
+</g>
+<g transform="translate(4,784)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#8E44AD" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אל</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Mizrael</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#8E44AD">#28</text>
+<text x="10" y="130" font-size="20" fill="#888">♌</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Leo 15°</text>
+<text x="10" y="155" font-size="14" fill="#8E44AD">♄</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Saturn</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Death of God, Angel of death</text>
+</g>
+<g transform="translate(204,784)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#8E44AD" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Vehuiah</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#8E44AD">#29</text>
+<text x="10" y="130" font-size="20" fill="#888">♌</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Leo 20°</text>
+<text x="10" y="155" font-size="14" fill="#8E44AD">♄</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Saturn</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Preservation of nature</text>
+</g>
+<g transform="translate(404,784)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#8E44AD" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Satma</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#8E44AD">#30</text>
+<text x="10" y="130" font-size="20" fill="#888">♌</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Leo 25°</text>
+<text x="10" y="155" font-size="14" fill="#8E44AD">♄</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Saturn</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Truth, pillar of cloud</text>
+</g>
+<g transform="translate(604,784)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#E74C3C" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Yelahiah</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#E74C3C">#31</text>
+<text x="10" y="130" font-size="20" fill="#888">♍</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Virgo 0°</text>
+<text x="10" y="155" font-size="14" fill="#E74C3C">♂</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mars</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Fire, burning heat</text>
+</g>
+<g transform="translate(804,784)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#E74C3C" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Mebahel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#E74C3C">#32</text>
+<text x="10" y="130" font-size="20" fill="#888">♍</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Virgo 5°</text>
+<text x="10" y="155" font-size="14" fill="#E74C3C">♂</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mars</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Love, charity</text>
+</g>
+<g transform="translate(1004,784)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#E74C3C" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Hikdeh</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#E74C3C">#33</text>
+<text x="10" y="130" font-size="20" fill="#888">♍</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Virgo 10°</text>
+<text x="10" y="155" font-size="14" fill="#E74C3C">♂</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mars</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Joy, harmony</text>
+</g>
+<g transform="translate(1204,784)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#E74C3C" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אל</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Aniel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#E74C3C">#34</text>
+<text x="10" y="130" font-size="20" fill="#888">♍</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Virgo 15°</text>
+<text x="10" y="155" font-size="14" fill="#E74C3C">♂</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mars</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Good angels, help</text>
+</g>
+<g transform="translate(1404,784)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#E74C3C" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Menaqel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#E74C3C">#35</text>
+<text x="10" y="130" font-size="20" fill="#888">♍</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Virgo 20°</text>
+<text x="10" y="155" font-size="14" fill="#E74C3C">♂</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mars</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Pure, lamp</text>
+</g>
+<g transform="translate(1604,784)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#E74C3C" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Akaien</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#E74C3C">#36</text>
+<text x="10" y="130" font-size="20" fill="#888">♍</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Virgo 25°</text>
+<text x="10" y="155" font-size="14" fill="#E74C3C">♂</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mars</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Truth, pillar of cloud</text>
+</g>
+<g transform="translate(4,1044)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#FFD700" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Aba</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#FFD700">#37</text>
+<text x="10" y="130" font-size="20" fill="#888">♎</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Libra 0°</text>
+<text x="10" y="155" font-size="14" fill="#FFD700">☉</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Sun</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Father, creator</text>
+</g>
+<g transform="translate(204,1044)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#FFD700" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Gagi</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#FFD700">#38</text>
+<text x="10" y="130" font-size="20" fill="#888">♎</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Libra 5°</text>
+<text x="10" y="155" font-size="14" fill="#FFD700">☉</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Sun</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Rose of God</text>
+</g>
+<g transform="translate(404,1044)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#FFD700" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Sasrabs</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#FFD700">#39</text>
+<text x="10" y="130" font-size="20" fill="#888">♎</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Libra 10°</text>
+<text x="10" y="155" font-size="14" fill="#FFD700">☉</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Sun</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Power of the covenant</text>
+</g>
+<g transform="translate(604,1044)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#FFD700" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אל</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Sandal</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#FFD700">#40</text>
+<text x="10" y="130" font-size="20" fill="#888">♎</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Libra 15°</text>
+<text x="10" y="155" font-size="14" fill="#FFD700">☉</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Sun</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Secret, mystery</text>
+</g>
+<g transform="translate(804,1044)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#FFD700" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Amat</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#FFD700">#41</text>
+<text x="10" y="130" font-size="20" fill="#888">♎</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Libra 20°</text>
+<text x="10" y="155" font-size="14" fill="#FFD700">☉</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Sun</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Virgin, crown</text>
+</g>
+<g transform="translate(1004,1044)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#FFD700" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">מיכ</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Mikael</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#FFD700">#42</text>
+<text x="10" y="130" font-size="20" fill="#888">♎</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Libra 25°</text>
+<text x="10" y="155" font-size="14" fill="#FFD700">☉</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Sun</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Michael</text>
+<rect width="192" height="252" fill="none" stroke="#FFD700" stroke-width="3" rx="8"/>
+<text x="100" y="240" text-anchor="middle" font-size="9" fill="#FFD700" font-family="Cinzel,serif">★ fr3k ★</text>
+</g>
+<g transform="translate(1204,1044)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#9B59B6" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Nnena</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#9B59B6">#43</text>
+<text x="10" y="130" font-size="20" fill="#888">♏</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Scorpio 0°</text>
+<text x="10" y="155" font-size="14" fill="#9B59B6">♀</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Venus</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Purification, incense</text>
+</g>
+<g transform="translate(1404,1044)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#9B59B6" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Yeyab</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#9B59B6">#44</text>
+<text x="10" y="130" font-size="20" fill="#888">♏</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Scorpio 5°</text>
+<text x="10" y="155" font-size="14" fill="#9B59B6">♀</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Venus</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Wisdom, understanding</text>
+</g>
+<g transform="translate(1604,1044)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#9B59B6" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Teity</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#9B59B6">#45</text>
+<text x="10" y="130" font-size="20" fill="#888">♏</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Scorpio 10°</text>
+<text x="10" y="155" font-size="14" fill="#9B59B6">♀</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Venus</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Glory, honor</text>
+</g>
+<g transform="translate(4,1304)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#9B59B6" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אל</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Ammon</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#9B59B6">#46</text>
+<text x="10" y="130" font-size="20" fill="#888">♏</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Scorpio 15°</text>
+<text x="10" y="155" font-size="14" fill="#9B59B6">♀</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Venus</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Pillar of faith</text>
+</g>
+<g transform="translate(204,1304)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#9B59B6" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Menin</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#9B59B6">#47</text>
+<text x="10" y="130" font-size="20" fill="#888">♏</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Scorpio 20°</text>
+<text x="10" y="155" font-size="14" fill="#9B59B6">♀</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Venus</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Will, desire</text>
+</g>
+<g transform="translate(404,1304)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#9B59B6" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Nekahal</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#9B59B6">#48</text>
+<text x="10" y="130" font-size="20" fill="#888">♏</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Scorpio 25°</text>
+<text x="10" y="155" font-size="14" fill="#9B59B6">♀</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Venus</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Scribe, righteousness</text>
+</g>
+<g transform="translate(604,1304)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#E74C3C" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Yebah</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#E74C3C">#49</text>
+<text x="10" y="130" font-size="20" fill="#888">♐</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Sagittarius 0°</text>
+<text x="10" y="155" font-size="14" fill="#E74C3C">♂</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mars</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Glorious, praise</text>
+</g>
+<g transform="translate(804,1304)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#E74C3C" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Nethel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#E74C3C">#50</text>
+<text x="10" y="130" font-size="20" fill="#888">♐</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Sagittarius 5°</text>
+<text x="10" y="155" font-size="14" fill="#E74C3C">♂</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mars</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Fire, burning</text>
+</g>
+<g transform="translate(1004,1304)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#E74C3C" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Yeyel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#E74C3C">#51</text>
+<text x="10" y="130" font-size="20" fill="#888">♐</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Sagittarius 10°</text>
+<text x="10" y="155" font-size="14" fill="#E74C3C">♂</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mars</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Gentle, deer</text>
+</g>
+<g transform="translate(1204,1304)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#E74C3C" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אל</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Mizrael</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#E74C3C">#52</text>
+<text x="10" y="130" font-size="20" fill="#888">♐</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Sagittarius 15°</text>
+<text x="10" y="155" font-size="14" fill="#E74C3C">♂</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mars</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Hiding place</text>
+</g>
+<g transform="translate(1404,1304)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#E74C3C" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Vehuiah</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#E74C3C">#53</text>
+<text x="10" y="130" font-size="20" fill="#888">♐</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Sagittarius 20°</text>
+<text x="10" y="155" font-size="14" fill="#E74C3C">♂</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mars</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Healing, health</text>
+</g>
+<g transform="translate(1604,1304)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#E74C3C" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Satma</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#E74C3C">#54</text>
+<text x="10" y="130" font-size="20" fill="#888">♐</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Sagittarius 25°</text>
+<text x="10" y="155" font-size="14" fill="#E74C3C">♂</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mars</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Firmament, stability</text>
+</g>
+<g transform="translate(4,1564)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#8E44AD" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Yelahiah</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#8E44AD">#55</text>
+<text x="10" y="130" font-size="20" fill="#888">♑</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Capricorn 0°</text>
+<text x="10" y="155" font-size="14" fill="#8E44AD">♄</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Saturn</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Goodness, mercy</text>
+</g>
+<g transform="translate(204,1564)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#8E44AD" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Mebahel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#8E44AD">#56</text>
+<text x="10" y="130" font-size="20" fill="#888">♑</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Capricorn 5°</text>
+<text x="10" y="155" font-size="14" fill="#8E44AD">♄</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Saturn</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Protection, shield</text>
+</g>
+<g transform="translate(404,1564)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#8E44AD" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Hikdeh</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#8E44AD">#57</text>
+<text x="10" y="130" font-size="20" fill="#888">♑</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Capricorn 10°</text>
+<text x="10" y="155" font-size="14" fill="#8E44AD">♄</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Saturn</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Light, brilliance</text>
+</g>
+<g transform="translate(604,1564)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#8E44AD" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אל</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Aniel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#8E44AD">#58</text>
+<text x="10" y="130" font-size="20" fill="#888">♑</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Capricorn 15°</text>
+<text x="10" y="155" font-size="14" fill="#8E44AD">♄</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Saturn</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Foundation of God</text>
+</g>
+<g transform="translate(804,1564)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#8E44AD" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Menaqel</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#8E44AD">#59</text>
+<text x="10" y="130" font-size="20" fill="#888">♑</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Capricorn 20°</text>
+<text x="10" y="155" font-size="14" fill="#8E44AD">♄</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Saturn</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Purifier, refiner</text>
+</g>
+<g transform="translate(1004,1564)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#8E44AD" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Akaien</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#8E44AD">#60</text>
+<text x="10" y="130" font-size="20" fill="#888">♑</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Capricorn 25°</text>
+<text x="10" y="155" font-size="14" fill="#8E44AD">♄</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Saturn</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Tribe, lineage</text>
+</g>
+<g transform="translate(1204,1564)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#3498DB" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Aba</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#3498DB">#61</text>
+<text x="10" y="130" font-size="20" fill="#888">♒</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Aquarius 0°</text>
+<text x="10" y="155" font-size="14" fill="#3498DB">♃</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Jupiter</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Father, providence</text>
+</g>
+<g transform="translate(1404,1564)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#3498DB" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Gagi</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#3498DB">#62</text>
+<text x="10" y="130" font-size="20" fill="#888">♒</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Aquarius 5°</text>
+<text x="10" y="155" font-size="14" fill="#3498DB">♃</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Jupiter</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Holy ones</text>
+</g>
+<g transform="translate(1604,1564)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#3498DB" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Sasrabs</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#3498DB">#63</text>
+<text x="10" y="130" font-size="20" fill="#888">♒</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Aquarius 10°</text>
+<text x="10" y="155" font-size="14" fill="#3498DB">♃</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Jupiter</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Keeper of secrets</text>
+</g>
+<g transform="translate(4,1824)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#3498DB" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אל</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Sandal</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#3498DB">#64</text>
+<text x="10" y="130" font-size="20" fill="#888">♒</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Aquarius 15°</text>
+<text x="10" y="155" font-size="14" fill="#3498DB">♃</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Jupiter</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Secret of the world</text>
+</g>
+<g transform="translate(204,1824)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#3498DB" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Amat</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#3498DB">#65</text>
+<text x="10" y="130" font-size="20" fill="#888">♒</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Aquarius 20°</text>
+<text x="10" y="155" font-size="14" fill="#3498DB">♃</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Jupiter</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Pillar of salt</text>
+</g>
+<g transform="translate(404,1824)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#3498DB" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Nnena</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#3498DB">#66</text>
+<text x="10" y="130" font-size="20" fill="#888">♒</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Aquarius 25°</text>
+<text x="10" y="155" font-size="14" fill="#3498DB">♃</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Jupiter</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Mother of God</text>
+</g>
+<g transform="translate(604,1824)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#E74C3C" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Yeyab</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#E74C3C">#67</text>
+<text x="10" y="130" font-size="20" fill="#888">♓</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Pisces 0°</text>
+<text x="10" y="155" font-size="14" fill="#E74C3C">♂</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mars</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Lord of fire</text>
+</g>
+<g transform="translate(804,1824)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#E74C3C" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Teity</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#E74C3C">#68</text>
+<text x="10" y="130" font-size="20" fill="#888">♓</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Pisces 5°</text>
+<text x="10" y="155" font-size="14" fill="#E74C3C">♂</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mars</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Treasure of lords</text>
+</g>
+<g transform="translate(1004,1824)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#E74C3C" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">יהוה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Ammon</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#E74C3C">#69</text>
+<text x="10" y="130" font-size="20" fill="#888">♓</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Pisces 10°</text>
+<text x="10" y="155" font-size="14" fill="#E74C3C">♂</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mars</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Builder, artisan</text>
+</g>
+<g transform="translate(1204,1824)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#E74C3C" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אל</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Menin</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#E74C3C">#70</text>
+<text x="10" y="130" font-size="20" fill="#888">♓</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Pisces 15°</text>
+<text x="10" y="155" font-size="14" fill="#E74C3C">♂</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mars</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Prophet, seer</text>
+</g>
+<g transform="translate(1404,1824)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#E74C3C" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Nekahal</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#E74C3C">#71</text>
+<text x="10" y="130" font-size="20" fill="#888">♓</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Pisces 20°</text>
+<text x="10" y="155" font-size="14" fill="#E74C3C">♂</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Mars</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Keeper of the door</text>
+</g>
+<g transform="translate(1604,1824)">
+<rect width="192" height="252" fill="#1a1a2e" rx="8"/>
+<rect x="2" y="2" width="188" height="6" fill="#3498DB" rx="3"/>
+<text x="180" y="70" text-anchor="end" font-size="64" font-family="SBL+Biblit,Sedra SF,Arial" fill="#FFF" dominant-baseline="middle">אלה</text>
+<text x="10" y="105" text-anchor="start" font-size="13" font-family="Cinzel,serif" font-weight="700" fill="#DDD">Yebah</text>
+<text x="184" y="105" text-anchor="end" font-size="12" font-family="Cinzel,serif" fill="#3498DB">#72</text>
+<text x="10" y="130" font-size="20" fill="#888">♓</text>
+<text x="36" y="132" font-size="11" font-family="Cinzel,serif" fill="#666">Pisces 25°</text>
+<text x="10" y="155" font-size="14" fill="#3498DB">♃</text>
+<text x="30" y="158" font-size="10" font-family="Cinzel,serif" fill="#555">Jupiter</text>
+<text x="10" y="180" font-size="9" font-family="Cinzel,serif" fill="#888">Crown of the Sun, ruler of a</text>
+</g>
+</svg>
