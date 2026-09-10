@@ -590,12 +590,18 @@ def _log_degradation(component, event, **payload):
         sys.stderr.write(f"[degrade] {component}/{event}: {payload}\n")
 
 def tts(text):
-    """Send text to speech via Termux:API. No-op on non-Termux platforms (logged)."""
+    """Send text to speech via pykokoro (hermes voice system). Falls back to termux on android."""
     try:
-        subprocess.Popen(["termux-tts-speak","-p","1.1","-r","1.0",text],
-                        stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
-    except (FileNotFoundError, OSError) as e:
-        _log_degradation("divine_timing", "termux_tts_unavailable", error=str(e), text_len=len(text))
+        sys.path.insert(0, '/home/fr3k/.hermes/voice')
+        from voice import speak
+        speak(text, voice='af_bella', speed=1.33, block=False)
+    except Exception as e:
+        # Fallback to Termux TTS
+        try:
+            subprocess.Popen(["termux-tts-speak","-p","1.1","-r","1.0",text],
+                            stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+        except (FileNotFoundError, OSError):
+            _log_degradation("divine_timing", "tts_unavailable", error=str(e), text_len=len(text))
 
 def notify(title, content, nid="divine"):
     """Send notification via Termux:API. No-op on non-Termux platforms (logged)."""
