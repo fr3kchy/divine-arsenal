@@ -594,7 +594,7 @@ def tts(text):
     try:
         sys.path.insert(0, '/home/fr3k/.hermes/voice')
         from voice import speak
-        speak(text, voice='af_bella', speed=1.33, block=False)
+        speak(text, voice='af_bella', speed=1.33)
     except Exception as e:
         # Fallback to Termux TTS
         try:
